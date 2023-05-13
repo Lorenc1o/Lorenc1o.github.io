@@ -7,6 +7,7 @@ layout: default
 <div class="sidebar">
     <h2>Table of Contents</h2>
     <ul>
+        <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#work-experience">Work Experience</a></li>
         <li><a href="#languages">Languages</a></li>

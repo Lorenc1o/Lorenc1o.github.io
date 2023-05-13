@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+# About me {#about}
+
 Hola! I am Jose Antonio Lorencio Abril [@Lorenc1o](github.com/Lorenc1o). 
 
 I am trying to be a Data Scientist, but I am still learning. Currently, I am studying the [EMJMD in Big Data Management and Analytics](https://bdma.ulb.ac.be/), an Erasmus Mundus Joint Master's Degree in the fields of Data Science and Big Data. The Master's is structured as follows:

@@ -8,6 +8,7 @@
 }
 
 .main-content {
-    margin-left: 25%; /* Adjust this value to properly space your main content. */
-    width: 70%; /* Adjust this value to properly space your main content. */
+    margin-top: 10%;
+    margin-left: 25%; 
+    width: 70%;
 }
