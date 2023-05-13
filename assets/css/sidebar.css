@@ -1,0 +1,13 @@
+.sidebar {
+    float: left;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    padding: 1em;
+}
+
+.main-content {
+    float: right;
+    width: 75%;
+    padding: 1em;
+}

@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<head>
+    <link rel="stylesheet" href="/assets/css/sidebar.css">
+</head>
 <div class="sidebar">
     <h2>Table of Contents</h2>
     <ul>
