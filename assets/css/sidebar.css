@@ -5,11 +5,9 @@
     width: 20%;
     height: 100%;
     overflow: auto;
-    padding: 1em;
 }
 
 .main-content {
     margin-left: 25%; /* Adjust this value to properly space your main content. */
     width: 70%; /* Adjust this value to properly space your main content. */
-    padding: 1em;
 }
