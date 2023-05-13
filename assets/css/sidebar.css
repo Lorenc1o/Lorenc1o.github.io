@@ -1,5 +1,7 @@
 .sidebar {
-    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 20%;
     height: 100%;
     overflow: auto;
@@ -7,7 +9,7 @@
 }
 
 .main-content {
-    float: right;
-    width: 75%;
+    margin-left: 25%; /* Adjust this value to properly space your main content. */
+    width: 70%; /* Adjust this value to properly space your main content. */
     padding: 1em;
 }
