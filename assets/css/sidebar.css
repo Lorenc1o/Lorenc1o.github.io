@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     top: 10%;
-    left: 0;
+    left: 5%;
     width: 20%;
     height: 100%;
     overflow: auto;
