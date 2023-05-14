@@ -6,11 +6,11 @@ permalink: /about/
 
 # About me {#about}
 
-Hola! I am Jose Antonio Lorencio Abril, <a href="github.com/Lorenc1o" style="color:red">@Lorenc1o</a> in GitHub. 
+Hola! I am Jose Antonio Lorencio Abril, <a href="https://github.com/Lorenc1o" style="color:red">@Lorenc1o</a> in GitHub. 
 
-I am trying to be a <span style="color:green">Data Scientist</span>, but I am still learning. Currently, I am studying the [EMJMD in Big Data Management and Analytics](https://bdma.ulb.ac.be/), an Erasmus Mundus Joint Master's Degree in the fields of Data Science and Big Data. The Master's is structured as follows:
+I am trying to be a **Data Scientist**, but I am still learning. Currently, I am studying the [EMJMD in Big Data Management and Analytics](https://bdma.ulb.ac.be/), an Erasmus Mundus Joint Master's Degree in the fields of Data Science and Big Data. The Master's is structured as follows:
 
-- First semester at [Université Libre de Bruxelles](https://www.ulb.be/en) (Brussels, Belgium): Business Intelligence Fundamentals. In this semester, we set the foundations of Data Science and Big Data, learning about Data Warehousing, Data Mining, Advanced Database Technologies, Database Systems Architecture and Development, and Data Science Workflows. In addition, I took a French course (B1.2 level).
+- First semester at <a href="https://www.ulb.be/en" style="color:FF995F">Université Libre de Bruxelles</a> (Brussels, Belgium): Business Intelligence Fundamentals. In this semester, we set the foundations of Data Science and Big Data, learning about Data Warehousing, Data Mining, Advanced Database Technologies, Database Systems Architecture and Development, and Data Science Workflows. In addition, I took a French course (B1.2 level).
 
 - Second semester at [Universitat Politècnica de Catalunya](https://www.upc.edu/en) (Barcelona, Spain): Big Data Fundamentals. In this semester, we learn about Big Data Management, including Big Data Analytics, Semantic Data Management, Machine Learning and about how to manage a Startup from the Business point of view. In addition, I took a Catalan course (A2.1 level).
 
