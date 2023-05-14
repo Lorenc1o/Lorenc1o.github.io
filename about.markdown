@@ -11,34 +11,35 @@ Hola! I am Jose Antonio Lorencio Abril, <a href="https://github.com/Lorenc1o" st
 I am trying to be a **Data Scientist**, but I am still learning. Currently, I am studying the [EMJMD in Big Data Management and Analytics](https://bdma.ulb.ac.be/), an Erasmus Mundus Joint Master's Degree in the fields of Data Science and Big Data. The Master's is structured as follows:
 
 - First semester at <a href="https://www.ulb.be/en" style="color:#FF995F">Université Libre de Bruxelles</a> (Brussels, Belgium): Business Intelligence Fundamentals. In this semester, we set the foundations of Data Science and Big Data, learning about Data Warehousing, Data Mining, Advanced Database Technologies, Database Systems Architecture and Development, and Data Science Workflows. In addition, I took a French course (B1.2 level).
+ 
+- Second semester at <a href="https://www.upc.edu/en" style="color:#FF995F">Universitat Politècnica de Catalunya</a> (Barcelona, Spain): Big Data Fundamentals. In this semester, we learn about Big Data Management, including Big Data Analytics, Semantic Data Management, Machine Learning and about how to manage a Startup from the Business point of view. In addition, I took a Catalan course (A2.1 level).
 
-- Second semester at [Universitat Politècnica de Catalunya](https://www.upc.edu/en) (Barcelona, Spain): Big Data Fundamentals. In this semester, we learn about Big Data Management, including Big Data Analytics, Semantic Data Management, Machine Learning and about how to manage a Startup from the Business point of view. In addition, I took a Catalan course (A2.1 level).
-
-- Third semester at [Paris-Saclay, CentraleSupélec](https://www.centralesupelec.fr/en) (Paris, France): Decision Support and Data Analytics. This is the specialization semester, where we can choose between three different specializations and universities. I have chosen the French specialization because it is the one that best fits my interests, with a great focus on Machine Learning and Artificial Intelligence, and a very active research community and industrial partnershipts.
+- Third semester at <a href="https://www.centralesupelec.fr/en" style="color:#FF995F">Paris-Saclay, CentraleSupélec</a> (Paris, France): Decision Support and Data Analytics. This is the specialization semester, where we can choose between three different specializations and universities. I have chosen the French specialization because it is the one that best fits my interests, with a great focus on Machine Learning and Artificial Intelligence, and a very active research community and industrial partnershipts.
 
 - The fourth semester is dedicated to the Master's Thesis. I am currently looking for a thesis topic, ideally as a Research Scientist in a company or a research center. If you are interested in my profile, please contact me at joseantoniolorencio@gmail.com :)
 
 ## Previous Education {#education} 
 
-I have studied a double Bachelor's Degree in Mathematics and Computer Science at the [Universidad de Murcia](https://www.um.es/en/web/inicio), in Spain. I am not sure if the same concept exists in other countries, but in Spain, a double Bachelor's Degree is a single degree that combines two different Bachelor's Degrees, with a higher workload than a single Bachelor's Degree and an additional year of studies. In my case, I studied 5 years instead of 4, and I obtained two Bachelor's Degrees, one in Mathematics and one in Computer Science.
 
-Also, I have almost finished a Bachelor's Degree in Economics at the [Universidad Nacional de Educación a Distancia](https://www.uned.es/), in Spain. I have less than a year left to finish it, but it is more a hobby than a serious degree. I am interested in Economics, but I am more focused on Data Science and Big Data at the moment.
+I have studied a double Bachelor's Degree in Mathematics and Computer Science at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a>, in Spain. I am not sure if the same concept exists in other countries, but in Spain, a double Bachelor's Degree is a single degree that combines two different Bachelor's Degrees, with a higher workload than a single Bachelor's Degree and an additional year of studies. In my case, I studied 5 years instead of 4, and I obtained two Bachelor's Degrees, one in Mathematics and one in Computer Science.
+
+Also, I have almost finished a Bachelor's Degree in Economics at the <a href="https://www.uned.es/" style="color:#FF995F">Universidad Nacional de Educación a Distancia (UNED)</a>, in Spain. I have less than a year left to finish it, but it is more a hobby than a serious degree. I am interested in Economics, but I am more focused on Data Science and Big Data at the moment.
 
 ## Work Experience {#work-experience} 
 
-### Research Assistant at the [Universidad de Murcia](https://www.um.es/en/web/inicio)
+### Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a>
 
-I received a grant from the Spanish Ministry of Education to work as a Research Assistant at the [Universidad de Murcia](https://www.um.es/en/web/inicio) from October of 2021 to June of 2022. During this time, I studied the problem of modelling the elastic behavior of breast tissue in the context of breast cancer surgery. I developed a C++ module, using the [deal.II library](https://www.dealii.org/), to solve the problem numerically. I also developed a MATLAB module to convert stl files into vtk files, which are the input files for the C++ module.
+I received a grant from the Spanish Ministry of Education to work as a Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> from October of 2021 to June of 2022. During this time, I studied the problem of modelling the elastic behavior of breast tissue in the context of breast cancer surgery. I developed a C++ module, using the [deal.II library](https://www.dealii.org/), to solve the problem numerically. I also developed a MATLAB module to convert stl files into vtk files, which are the input files for the C++ module.
 
 The results of this work have been published in my Computer Science Bachelor's Thesis, which you can find [here](github.com/Lorenc1o/Math_Info_UniversityNotes/ComputerScience/TFG/TFG_FEM.pdf).
 
-### Data Scientist Intern at [Orenes Grupo](https://www.orenesgrupo.com/)
+### Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a>
 
-I worked as a Data Scientist Intern at [Orenes Grupo](https://www.orenesgrupo.com/) from July of 2022 to September of 2022. During this time, I developed a Machine Learning workflow to predict the usage of slot machines in the different casinos of the company. The workflow involved all the steps of a MLOps pipeline, from data collection to model deployment. I used Python, SQL, AWS, and Airflow to develop the workflow. I also developed a dashboard to visualize the results of the workflow, using Power BI. The final model developed was a LSTM neural network, which was launched into production.
+I worked as a Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a> from July of 2022 to September of 2022. During this time, I developed a Machine Learning workflow to predict the usage of slot machines in the different casinos of the company. The workflow involved all the steps of a MLOps pipeline, from data collection to model deployment. I used Python, SQL, AWS, and Airflow to develop the workflow. I also developed a dashboard to visualize the results of the workflow, using Power BI. The final model developed was a LSTM neural network, which was launched into production.
 
 ### Freelance Software Developer
 
-I am not completely sure how to call this. There is a tech center in my town called ['Centro Tecnológico del Mármol y la Piedra'](https://ctmarmol.es/), which is a research center that focuses on the development of software for the marble industry. They usually work in European projects, and they have trusted me to develop some of the software for these projects. I have worked with them in two different projects:
+I am not completely sure how to call this. There is a tech center in my town called <a href="https://ctmarmol.es/" style="color:#B00000">'Centro Tecnológico del Mármol y la Piedra'</a>, which is a research center that focuses on the development of software for the marble industry. They usually work in European projects, and they have trusted me to develop some of the software for these projects. I have worked with them in two different projects:
 
 - [BIMStone Official Page](https://www.bimstoneproject.eu/) or [BIMStone CTM Page](https://ctmarmol.es/portfolio/bimstone/#tab-1429109016792-2-9): in this project I used C# to develop a plugin for Revit, a BIM software, to keep track of the pollution of the materials used in the construction of a building. The results could be exported to several formats.
 
