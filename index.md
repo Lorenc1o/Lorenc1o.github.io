@@ -8,7 +8,7 @@ You will find information and insights about different topics here, specially ab
 
 <script>
 window.onload = function() {
-    fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,racist,sexist,explicit?type=single')
+    fetch('https://v2.jokeapi.dev/joke/Any?type=single?blacklistFlags=nsfw,racist,sexist,explicit')
         .then(response => response.json())
         .then(data => {
             document.getElementById('joke').textContent = data.joke;
