@@ -8,7 +8,7 @@ You will find information and insights about different topics here, specially ab
 
 <script>
 window.onload = function() {
-    fetch('https://v2.jokeapi.dev/joke/AnyAny?blacklistFlags=nsfw,racist,sexist,explicit?type=single')
+    fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,racist,sexist,explicit?type=single')
         .then(response => response.json())
         .then(data => {
             document.getElementById('joke').textContent = data.joke;
@@ -18,18 +18,6 @@ window.onload = function() {
 
 Now a joke for you[^1]:
 
-<!-- Somewhere in your HTML body -->
 <p id="joke"></p>
 
 [^1]: Disclaimer: Joke provided by [jokeAPI](https://sv443.net/jokeapi/v2/).
-
-<div id="footnotes"></div>
-
-<script>
-window.onload = function() {
-    var footnotes = document.getElementsByClassName('footnotes');
-    for (var i = 0; i < footnotes.length; i++) {
-        document.getElementById('footnotes').appendChild(footnotes[i]);
-    }
-};
-</script>
