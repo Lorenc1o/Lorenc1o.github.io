@@ -22,3 +22,14 @@ Now a joke for you[^1]:
 <p id="joke"></p>
 
 [^1]: Disclaimer: Joke provided by [jokeAPI](https://sv443.net/jokeapi/v2/).
+
+<div id="footnotes"></div>
+
+<script>
+window.onload = function() {
+    var footnotes = document.getElementsByClassName('footnotes');
+    for (var i = 0; i < footnotes.length; i++) {
+        document.getElementById('footnotes').appendChild(footnotes[i]);
+    }
+};
+</script>
