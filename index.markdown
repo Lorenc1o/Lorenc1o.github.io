@@ -16,7 +16,9 @@ window.onload = function() {
 };
 </script>
 
-Now a joke for you:
+Now a joke for you[^1]:
 
 <!-- Somewhere in your HTML body -->
 <p id="joke"></p>
+
+[^1]: Joke provided by [jokeAPI](https://sv443.net/jokeapi/v2/).
