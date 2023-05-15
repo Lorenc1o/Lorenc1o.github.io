@@ -1,4 +1,9 @@
 ---
 layout: default
 ---
-# Welcome to my site!
+<head>
+    # Welcome to my site!
+</head>
+<div class="main-content">
+    {{ content }}
+</div>
