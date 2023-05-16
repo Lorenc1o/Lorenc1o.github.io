@@ -18,5 +18,3 @@ First, I will explain what the Willmore functional, $W$, is. Then, I will visit 
 The Willmore functional of a compact surface, $S$, is defined as:
 $$\int_S H^2 dA,$$
 where $H$ is the mean curvature of $S$ and $dA$ is the area element of $S$.
-
-Added.
