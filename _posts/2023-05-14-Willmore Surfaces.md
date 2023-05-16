@@ -1,5 +1,5 @@
 ---
-layout: mathpost
+layout: post
 title:  "Willmore Surfaces"
 date:   2023-05-15
 categories: math mathematics geometry differential-geometry willmore-surfaces willmore-functional
