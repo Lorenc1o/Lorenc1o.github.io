@@ -31,7 +31,7 @@ Also, I have almost finished a Bachelor's Degree in Economics at the <a href="ht
 
 I received a grant from the Spanish Ministry of Education to work as a Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> from October of 2021 to June of 2022. During this time, I studied the problem of modelling the elastic behavior of breast tissue in the context of breast cancer surgery. I developed a C++ module, using the [deal.II library](https://www.dealii.org/), to solve the problem numerically. I also developed a MATLAB module to convert stl files into vtk files, which are the input files for the C++ module.
 
-The results of this work have been published in my Computer Science Bachelor's Thesis, which you can find [here](github.com/Lorenc1o/Math_Info_UniversityNotes/ComputerScience/TFG/TFG_FEM.pdf).
+The results of this work have been published in my Computer Science Bachelor's Thesis, which you can find [here](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/ComputerScience/TFG/TFG_FEM.pdf).
 
 ### Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a>
 
