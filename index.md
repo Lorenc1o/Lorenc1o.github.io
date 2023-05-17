@@ -28,7 +28,7 @@ I come from Cehegín, a small town in Murcia, in the south of Spain. I have live
 
 Usually, I use this photo as my profile picture, since it looks professional and I look good enough in it:
 
-<img src="/assets/images/me/me.png" alt="A picture of me." width="100" class="centered-image">
+<img src="/assets/images/me/me.png" alt="A picture of me." width="500" class="centered-image">
 
 But there is much more of me than this. I am sharing here some pictures with important people in my life. This is me with my mother when I was younger:
 
