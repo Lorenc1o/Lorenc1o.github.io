@@ -34,3 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'faraday-retry'
 gem 'webrick'
+
+gem 'jekyll-multiple-languages-plugin'

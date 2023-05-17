@@ -1,5 +1,6 @@
 ---
 layout: home
+lang: en
 ---
 
 Hello, I think my name is already too many times in this website, so I will skip that part. Here you will find my [blog posts](/blog) and [projects](/projects).

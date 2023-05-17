@@ -40,6 +40,11 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-multiple-languages-plugin
+
+languages: ['en', 'es', 'fr']
+default_lang: 'en'
+exclude_from_localization: ["assets","index.html"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

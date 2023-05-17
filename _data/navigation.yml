@@ -1,10 +1,25 @@
-- title: "Home"
-  url: /
-- title: "Blog"
-  url: /blog
-- title: "Projects"
-  url: /projects
-- title: "About"
-  url: /about
-- title: "Categories"
-  url: /categories
+languages:
+  - language: "en"
+    links:
+      - title: "Home"
+        url: /
+      - title: "Blog"
+        url: /blog
+      - title: "Projects"
+        url: /projects
+      - title: "About"
+        url: /about
+      - title: "Categories"
+        url: /categories
+  - language: "es"
+    links:
+      - title: "Inicio"
+        url: /inicio
+      - title: "Blog"
+        url: /blog
+      - title: "Proyectos"
+        url: /projects
+      - title: "Sobre mi"
+        url: /sobre
+      - title: "Categorias"
+        url: /categories
