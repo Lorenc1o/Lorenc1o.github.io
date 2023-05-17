@@ -27,7 +27,7 @@ usemathjax: true
 
 I did my Mathematics Bachelor Thesis about Willmore Surfaces. I will try to explain the main ideas of the thesis in this post.
 
-Firstly, we will see a bit of history of these surfaces. Secondly, I will explain what the Willmore functional, \\(W\\), is. Then, I will visit some of the most important results about Willmore surfaces. Finally, I will explain the main result of my thesis, which is the derivation of the first variation of the Willmore functional, using basic tools of differential geometry in the three-dimensional Euclidean space, \\(\\mathbb{R}^3\\).
+Firstly, we will see a bit of history of these surfaces. Secondly, I will explain what the Willmore functional, \\(W\\), is. Then, I will visit some of the most important results about Willmore surfaces. Finally, I will explain the main results of my thesis, which are the invariance of the Willmore functional under conformal transformations of the space and the derivation of the first variation of the Willmore functional, using basic tools of differential geometry in the three-dimensional Euclidean space, \\(\\mathbb{R}^3\\).
 
 If you are interested in the topic, you can read the [full thesis](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/TFG_WillmoreSurfaces.pdf), its accompanying [presentation](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/Presentacion_TFG_Willmore.pdf) or [poster](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/Poster_willmore_v2.pdf). Note that they are in Spanish.
 
@@ -96,14 +96,52 @@ The proof of this result evaded mathematicians until 2014, when Marques and Neve
 
 ## The conformal invariance of the Willmore functional {#conformal-invariance}
 
-TODO
+Let \\(W_1,W_2\\) be open and connected sets in the Euclidean space. Then, a <span style="color:red">conformal transformation</span> is a function \\(\\Phi:W_1\\to W_2\\) if, for all \\(p\\in W_1\\), \\(d\\Phi_p\\) is a linear conformal map. More concretely, this means that exists a differentiable function \\(\\lambda:W_1\\to\\mathbb{R}\setminus\\{0\\}\\) such that
+\\[\\left\\langle d\\Phi_p(v),d\\Phi_p(w)\\right\\rangle=\\lambda(p)^2\\left\\langle v,w\\right\\rangle,\\]
+for all \\(v,w\\in\\mathbb{R}^3\\) and \\(p\\in W_1\\). The function \\(\\lambda\\) is called the <span style="color:red">conformal factor</span> of \\(\\Phi\\).
+
+It can be proven that this definition is equivalent to say that a conformal transformation is a function that preserves angles between curves.
+
+The Liouville theorem[^4] states that every injective conformal transformation between two open and connected sets in \\(\\mathbb{R}^3\\) is a composition of rigid motions, inversions and homotheties.
+
+Using this fact and some differential geometry, we proved[^3] the following theorem:
+
+**Theorem 2.** Let \\(S\\) be an orientable, compact and regular surface and \\(\\Phi:S\\to\\mathbb{R}^3\\) a conformal and injective transformation. Then \\S'=\Phi(S)\\ is also an orientable, compact and regular surface and the Willmore functional is invariant under conformal transformations, i.e. \\(W(S)=W(S')\\).
 
 ## The first variation of the Willmore functional {#first-variation}
 
-TODO
+In the final chapter, we studied the first variation of the Willmore functional. Variational methods are a powerful tool in geometry, since they allow us to find critical points of a functional by studying the behavior of the functional when the surface is slightly perturbed.
+
+After lots (really lots!) of computations, we derived the following formula for the first variation of the Willmore functional:
+\\[w'(0)=\int_R\varphi(\\Delta H+2H(H^2-2K))dS,\\]
+where \\(\\varphi\\) is the scaling function of the normal variation of the surface and \\(R\\) is the region enclosed by the surface in which the variation is defined with compact support, i.e. \\(\\varphi=0\\) outside \\(R\\). Also, \\(H\\) and \\(K\\) are the mean and Gaussian curvatures of the surface, respectively, and \\(\\Delta\\) is the Laplacian operator. Finally, \\(w(t)\\) is the Willmore functional of the surface \\(S_t\\) obtained by perturbing the surface \\(S\\) in the direction of the normal vector field \\(\\nu\\) with scaling function \\(\\varphi\\), i.e. \\(S_t=S+t\\varphi\\nu\\).
+
+If the previous paragraph is a bit obscure to you, don't worry! The important thing is that we derived a formula that every critical point of the Willmore functional must satisfy. With this formula, we were able to derive the Euler-Lagrange equation of the Willmore functional, which is a partial differential equation that every critical point of the Willmore functional must satisfy:
+
+**Theorem 3.** Let \\(S\\) be a regular surface. Then, \\(S\\) is a critical point of the Willmore functional if and only if it satisfies the following partial differential equation:
+\\[\\Delta H+2H(H^2-2K)=0.\\]
+
+Note that we removed the adjective 'compact' from the previous theorem. This is because this theorem allows us to redefine the concept of Willmore Surface to the whole space of regular surfaces, not only compact ones. This is a very important result, since it allows us to study the Willmore functional in a more general setting.
+
+For instance, we proved the three following results:
+
+**Theorem 4.** Totally umbilical surfaces are Willmore surfaces.
+
+<span style="color:grey">
+Totally umbilical surfaces verify \\(H^2-K=0\\), so the right part of the equation is zero. The \\(\\Delta H\\) term is also zero, since \\(H\\) is constant. Therefore, the equation is satisfied.
+</span>
+
+**Corollary** Planes are Willmore surfaces under the new definition, but not under the old one, since they are not compact.
+
+**Theorem 5.** Pieces of sphere are the only Willmore surfaces with constant non-zero mean curvature.
+
+<span style="color:grey">
+Suppose \\(S\\) is a Willmore surface with \\(H\\neq0\\), then \\(\Delta H = 0\\) and the equation becomes \\(H(H^2-2K)=0\\). Since \\(H\\neq0\\), we have that \\(H^2-2K=0\\), so \\(S\\) is totally umbilical. Therefore, \\(S\\) is a piece of sphere since \\(H\\neq0\\).
+
 
 ## References {#references}
 
 [^1]: T. J. Willmore, Note on embedded surfaces, An. St. Univ. Iasi 11 (1965), 493-496.
 [^2]: F. C. Marques and A. Neves, Min-max theory and the Willmore conjecture, Ann. of Math. (2) 179 (2014), no. 2, 683-782. [arXiv](https://arxiv.org/abs/1202.6036)
 [^3]: For more details, you can see my [thesis](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/TFG_WillmoreSurfaces.pdf).
+[^4]: Mirjam Soeten. Conformal maps and the theorem of Liouville. Bachelor's Thesis, Rijksuniversiteit Groningen, 2013. [link](https://fse.studenttheses.ub.rug.nl/9888/1/Scriptiegoed.pdf)
