@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 <head>
     <link rel="stylesheet" href="/assets/css/sidebar.css">
