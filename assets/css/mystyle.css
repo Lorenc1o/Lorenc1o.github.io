@@ -19,10 +19,13 @@
 
 @media screen and (max-width: 768px) {
     .sidebar {
-        position: static;
-        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        overflow: visible;
+        height: auto;
+        background-color: #f8f9fa; // You can change this to match your site's colors.
+        z-index: 1000; // This ensures that the sidebar appears above the other elements on the page.
     }
     .sidebar select {
         display: block;
@@ -34,5 +37,6 @@
     .main-content {
         margin: 0;
         width: 100%;
+        padding-top: 50px; // You may need to adjust this value to ensure that the fixed sidebar does not overlap with the content.
     }
 }
