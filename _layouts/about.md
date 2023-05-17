@@ -6,7 +6,7 @@ layout: base
 </head>
 <div class="sidebar">
     <h2>Table of Contents</h2>
-    <select id="toc-select" style="display: none;">
+    <select id="toc-select">
         <!-- options will be added by JavaScript -->
     </select>
     <ul id="toc-list">
