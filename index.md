@@ -34,7 +34,7 @@ But there is much more of me than this. I am sharing here some pictures with imp
 
 <img src="/assets/images/me/me-and-mum.jpg" alt="A picture of me with my mother." width="300" class="centered-image">
 
-This is me with my father and my brother, a snow day in 2016:
+This is me with my father and my brother, a snowy day in 2016:
 
 <img src="/assets/images/me/me-jp-dad.jpg" alt="A picture of me with my family." width="300" class="centered-image">
 
