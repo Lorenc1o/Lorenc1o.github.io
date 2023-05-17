@@ -1,7 +1,29 @@
 ---
-layout: about
+layout: base
 title: About
 permalink: /about/
+toc:
+    - 
+        title: About me
+        url: '#about'
+    - 
+        title: Education
+        url: '#education'
+    -
+        title: Work Experience
+        url: '#work-experience'
+    -
+        title: Languages
+        url: '#languages'
+    -
+        title: Skills
+        url: '#skills'
+    -
+        title: Hobbies
+        url: '#hobbies'
+    -
+        title: Contact
+        url: '#contact'
 ---
 
 # About me {#about}
