@@ -12,3 +12,23 @@
     margin-left: 25%; 
     width: 70%;
 }
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        position: static;
+        height: auto;
+        width: 100%;
+        overflow: visible;
+    }
+    .sidebar select {
+        display: block;
+        width: 100%;
+    }
+    .sidebar ul {
+        display: none;
+    }
+    .main-content {
+        margin: 0;
+        width: 100%;
+    }
+}
