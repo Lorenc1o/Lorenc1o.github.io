@@ -4,6 +4,28 @@ title:  "Willmore Surfaces"
 date:   2023-05-15
 categories: Mathematics
 usemathjax: true
+toc:
+    -
+        name: Introduction
+        url: '#introduction'
+    -
+        name: History
+        url: '#history'
+    -
+        name: The Willmore functional
+        url: '#the-willmore-functional'
+    -
+        name: The Willmore conjecture
+        url: '#the-willmore-conjecture'
+    -
+        name: Conformal invariance
+        url: '#conformal-invariance'
+    -
+        name: First variation formula
+        url: '#first-variation'
+    -
+        name: References
+        url: '#references'
 ---
 <head>
     <link rel="stylesheet" href="/assets/css/mystyle.css">
