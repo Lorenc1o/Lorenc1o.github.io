@@ -14,6 +14,9 @@ usemathjax: true
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#history">History</a></li>
         <li><a href="#the-willmore-functional">The Willmore functional</a></li>
+        <li><a href="#the-willmore-conjecture">The Willmore conjecture</a></li>
+        <li><a href='#conformal-invariance'>Conformal invariance</a></li>
+        <li><a href="#first-variation">First variation formula</a></li>
         <li><a href="#references">References</a></li>
     </ul>
 </div>
@@ -36,11 +39,11 @@ The functional was later generally defined as \\[W(S) = \\int_{S}H^2dS\\], effec
 
 ## The Willmore functional {#the-willmore-functional}
 
-The Willmore functional of a orientable, compact and regular surface, \\(S\\), is defined as:
+The <span style="color:red">Willmore functional</span> of a orientable, compact and regular surface, \\(S\\), is defined as:
 \\[\\int_S H^2 dS,\\]
 where \\(H\\) is the mean curvature of \\(S\\) and \\(dS\\) is the area element of \\(S\\).
 
-Then, we define a Willmore surface as a surface that is a critical point of the Willmore functional.
+Then, we define a <span style="color:red">Willmore surface</span> as a surface that is a critical point of the Willmore functional.
 
 The first interesting result that we can get is the following Theorem:
 
@@ -49,30 +52,55 @@ The first interesting result that we can get is the following Theorem:
 with equality if and only if \\(S\\) is a sphere.
 
 We can outline[^3] the proof of this theorem as follows:
+
+<span style="color:grey">
 First, 
 \\[W(S)=\\int_S H^2 dS\\geq\\int_{S^+} H^2 dS,\\]
 where \\(S^+\\) is the part of \\(S\\) where \\(K\\) is positive.
-
+</span>
+<span style="color:grey">
 Then, it is well known that
 \\[H^2-K=\\frac{(k_1-k_2)^2}{4}\\geq0,\\]
 where \\(k_1\\) and \\(k_2\\) are the principal curvatures of \\(S\\). This implies that \\(H^2\\geq K\\).
-
+</span>
+<span style="color:grey">
 Now, we can combine the two previous inequalities to get
 \\[W(S)\\geq\\int_{S^+} K dS=\\text{area}(N(S^+)),\\]
 where \\(N(\\cdot)\\) is the Gauss map of \\(S\\). Since \\(S\\) is compact, it can be proven that \\(N(S^+)\\) is a surjective.
-
+</span>
+<span style="color:grey">
 Therefore
-
 \\[W(S)\\geq\\text{area}(N(S^+))\\geq\\text{area}(\\mathbb{S}^2)=4\\pi.\\]
-
 The equality holds if and only if \\(H^2=K\\), which implies that \\(k_1=k_2\\), i.e. \\(S\\) is a sphere, since it is the only surface with constant principal curvatures that is compact.
+</span>
 
 Since Willmore was interested in the relationship between the Euler characteristic and the Willmore functional, he explored the behavior of the functional with different families of surfaces. For instance, it can be proven that, for the torus of revolution with inner radius \\(r\\) and outer radius \\(R\\), the Willmore functional is given by
 \\[W(\\mathbb{T}(r,R))=\\frac{\\pi^2}{a\sqrt{1-a^2}},\\]
-where \\(a=\\frac{r}{R}\\). This implies that the minimum of the functional is \\(4\\pi\\) and it is achieved when \\(a=\\frac{1}{\\sqrt{2}}\\), i.e. when \\(R=\\sqrt{2}\cdot r\\).
+where \\(a=\\frac{r}{R}\\). This implies that the minimum of the functional is \\(2\\pi^2\\) and it is achieved when \\(a=\\frac{1}{\\sqrt{2}}\\), i.e. when \\(R=\\sqrt{2}\cdot r\\).
 
-![A torus of revolution.](/assets/images/willmore/torus.png)
 <img src="/assets/images/willmore/torus.png" alt="A torus of revolution." width="200" class="centered-image">
+
+## The Willmore conjecture {#the-willmore-conjecture}
+
+After finding the minimum of the Willmore functional among all tori of revolution, Willmore also studied a more general family of tori: the <span style="color:red">generalized tori</span>. There are surfaces that are obtained by taking a tube around a closed curve in \\(\\mathbb{R}^3\\). The generalized tori are the surfaces that are homeomorphic to a torus. 
+
+<img src="/assets/images/willmore/generalized-torus.png" alt="A generalized torus." width="200" class="centered-image">
+
+He found out that the Willmore functional of any generalized torus is at least \\(2\\pi^2\\). This led him to conjecture that the minimum of the Willmore functional among all surfaces with Euler characteristic \\(\\mathcal{X}(S)=0\\) is \\(2\\pi^2\\). This is known as the Willmore conjecture:
+
+**Willmore conjecture (1965).** If \\(S\\) is an orientable, compact and regular surface with Euler characteristic \\(\\mathcal{X}(S)=0\\) (equivalently, its genus is \\(g(S)=1\\)), then 
+\\[W(S)\\geq2\\pi^2,\\]
+with equality if and only if \\(S\\) is a torus of revolution with inner radius \\(r\\) and outer radius \\(R=\\sqrt{2}\\cdot r\\).
+
+The proof of this result evaded mathematicians until 2014, when Marques and Neves proved it[^2] using advanced techniques from geometric measure theory.
+
+## The conformal invariance of the Willmore functional {#conformal-invariance}
+
+TODO
+
+## The first variation of the Willmore functional {#first-variation}
+
+TODO
 
 ## References {#references}
 

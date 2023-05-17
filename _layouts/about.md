@@ -2,7 +2,7 @@
 layout: base
 ---
 <head>
-    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
 </head>
 <div class="sidebar">
     <h2>Table of Contents</h2>
