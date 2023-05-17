@@ -43,7 +43,7 @@ I am not completely sure how to call this. There is a tech center in my town cal
 
 - [BIMStone Official Page](https://www.bimstoneproject.eu/) or [BIMStone CTM Page](https://ctmarmol.es/portfolio/bimstone/#tab-1429109016792-2-9): in this project I used C# to develop a plugin for Revit, a BIM software, to keep track of the pollution of the materials used in the construction of a building. The results could be exported to several formats.
 
-- [CircularBIM Official Page](https://circularbim.eu/) or [CircularBIM CTM Page](https://ctmarmol.es/portfolio/circularbim/): in this project Python to develop a multiplatform desktop application that uses the output of another tool of their suite to provide a visual representation of several metrics related to the pollution of the materials used in the construction of a building.
+- [CircularBIM Official Page](https://circularbim.eu/) or [CircularBIM CTM Page](https://ctmarmol.es/portfolio/circularbim/): in this project I used Python to develop a multiplatform desktop application that uses the output of another tool of their suite to provide a visual representation of several metrics related to the pollution of the materials used in the construction of a building.
 
 ## Languages {#languages} 
 
