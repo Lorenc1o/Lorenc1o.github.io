@@ -26,17 +26,17 @@
           {%- endfor -%}
         </div>
       </nav>
-
-      {% if page.toc %}
-      <div id="toc-container">
-        <button class="toc-toggle">Table of Contents</button>
-        <div id="toc-content">
-          {% for item in page.toc %}
-          <a href="{{ item.link }}">{{ item.title }}</a>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
     {%- endif -%}
+
+    {%- if page.toc -%}
+    <nav class="toc-nav">
+      <h3>Table of Contents</h3>
+      <ul>
+        {%- for toc_item in page.toc -%}
+          <li><a href="{{toc_item.url}}">{{ toc_item.title | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  {%- endif -%}
   </div>
 </header>
