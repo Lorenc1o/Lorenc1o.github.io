@@ -27,22 +27,6 @@ toc:
         name: References
         url: '#references'
 ---
-<head>
-    <link rel="stylesheet" href="/assets/css/mystyle.css">
-</head>
-<div class="sidebar">
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#history">History</a></li>
-        <li><a href="#the-willmore-functional">The Willmore functional</a></li>
-        <li><a href="#the-willmore-conjecture">The Willmore conjecture</a></li>
-        <li><a href='#conformal-invariance'>Conformal invariance</a></li>
-        <li><a href="#first-variation">First variation formula</a></li>
-        <li><a href="#references">References</a></li>
-    </ul>
-</div>
-
 # Willmore Surfaces
 
 ## Introduction {#introduction}
