@@ -12,6 +12,7 @@ usemathjax: true
     <h2>Table of Contents</h2>
     <ul>
         <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#history">History</a></li>
         <li><a href="#the-willmore-functional">The Willmore functional</a></li>
     </ul>
 </div>
@@ -22,10 +23,21 @@ usemathjax: true
 
 I did my Mathematics Bachelor Thesis about Willmore Surfaces. I will try to explain the main ideas of the thesis in this post.
 
-First, I will explain what the Willmore functional, \\(W\\), is. Then, I will visit some of the most important results about Willmore surfaces. Finally, I will explain the main result of my thesis, which is the derivation of the first variation of the Willmore functional, using basic tools of differential geometry in the three-dimensional Euclidean space, \\(\\mathbb{R}^3\\).
+Firstly, we will see a bit of history of these surfaces. Secondly, I will explain what the Willmore functional, \\(W\\), is. Then, I will visit some of the most important results about Willmore surfaces. Finally, I will explain the main result of my thesis, which is the derivation of the first variation of the Willmore functional, using basic tools of differential geometry in the three-dimensional Euclidean space, \\(\\mathbb{R}^3\\).
+
+If you are interested in the topic, you can read the [full thesis](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/TFG_WillmoreSurfaces.pdf), its accompanying [presentation](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/Presentacion_TFG_Willmore.pdf) or [poster](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/TFG/Poster_willmore_v2.pdf). Note that they are in Spanish.
+
+## History {#history}
+
+Willmore surfaces have been a subject of significant interest since their inception in 1965 when Willmore published his influential article Note on embedded surfaces [^1]. He defined a functional, later named after him, given by \\(\\tau(S)=\\frac{1}{2\\pi}\\int_{S}H^2dS\\), where \\(S\\) is a closed orientable regular surface of Euclidean space and \\(dS\\) its area element, with \\(H\\) denoting the mean curvature of \\(S\\). Willmore aimed to find the relationship between this functional and the Euler characteristic, \\(\\mathcal X(S)\\), hoping to discover a relation akin to the Gauss-Bonnet theorem. Although such a relation was not established, Willmore managed to extract properties of \(\\tau(S)\) knowing the value of \\(\\mathcal X(S)\\). For example, he proved that for a sphere of radius \\(r>0\\), \\(\\tau(\\mathbb{S}^2(r))=2\), which is the infimum (and minimum) of \\(\\tau\\) for all possible surfaces \\(S\\) with \\(\\mathcal{X}(\\mathcal{S})=2\\).
+
+The functional was later generally defined as \\(W(S) = \\int_{S}H^2dS\\), effectively multiplying Willmore's original functional by \\(2\\pi\\). The study of both functionals is equivalent when it comes to finding surfaces that minimize them. Another alternative definition is \\(W(S) = \\int_{S}(H^2-K)dS\\), where \\(K\\) is the Gaussian curvature of the surface at each point. This functional is also equivalent to the previous ones, as the Gauss-Bonnet theorem means that only a constant term is being added. After finding the absolute minimum of \\(W\\), Willmore attempted to reach a similar result for surfaces with Euler characteristic \\(\\mathcal{X}(S)=0\\), such as surfaces that are homeomorphic to a torus. While he didn't achieve this, he characterized the minimum of \\(\\tau\\) among all tori of revolution, leading to what became known as the Willmore conjecture. This conjecture was eventually proven by Marques and Neves in 2014, almost 50 years after it was first stated [^2].
 
 ## The Willmore functional {#the-willmore-functional}
 
 The Willmore functional of a compact surface, \\(S\\), is defined as:
 \\[\\int_S H^2 dA,\\]
 where \\(H\\) is the mean curvature of \\(S\\) and \\(dA\\) is the area element of \\(S\\).
+
+[^1]: T. J. Willmore, Note on embedded surfaces, An. St. Univ. Iasi 11 (1965), 493-496.
+[^2]: F. C. Marques and A. Neves, Min-max theory and the Willmore conjecture, Ann. of Math. (2) 179 (2014), no. 2, 683-782. [arXiv](https://arxiv.org/abs/1202.6036)
