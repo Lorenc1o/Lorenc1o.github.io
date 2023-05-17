@@ -6,7 +6,7 @@ categories: math mathematics geometry differential-geometry willmore-surfaces wi
 usemathjax: true
 ---
 <head>
-    <link rel="stylesheet" href="/assets/css/sidebar.css">
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
 </head>
 <div class="sidebar">
     <h2>Table of Contents</h2>
@@ -72,6 +72,7 @@ Since Willmore was interested in the relationship between the Euler characterist
 where \\(a=\\frac{r}{R}\\). This implies that the minimum of the functional is \\(4\\pi\\) and it is achieved when \\(a=\\frac{1}{\\sqrt{2}}\\), i.e. when \\(R=\\sqrt{2}\cdot r\\).
 
 ![A torus of revolution.](/assets/images/willmore/torus.png)
+<img src="/assets/images/willmore/torus.png" alt="A torus of revolution." width="200" class="centered-image">
 
 ## References {#references}
 
