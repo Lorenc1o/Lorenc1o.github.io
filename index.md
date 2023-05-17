@@ -38,12 +38,18 @@ This is me with my father and my brother, a snowy day in 2016:
 
 <img src="/assets/images/me/me-jp-dad.jpg" alt="A picture of me with my family." width="300" class="centered-image">
 
-This one is a recent one, with my girlfriend, Lorena, who is a very important person in my life. We took this picture in Parque de la Ciudadela, Barcelona:
+This one is a recent one, with my girlfriend, Lorena, who is a crucial one in my life. We took this picture in Parque de la Ciudadela, Barcelona:
 
 <img src="/assets/images/me/me-lore.jpg" alt="A picture of me with my girlfriend." width="300" class="centered-image">
 
-Finally, this is me with my friends at a Christmas party in our home town:
+Finally, let me present you some of my friends. This is me with my friends at a Christmas party in our home town:
 
 <img src="/assets/images/me/me-and-friends.jpg" alt="A picture of me with my friends." width="300" class="centered-image">
+
+And this is me with some of my friends from Murcia, who came to visit me in Brussels when I was studying there:
+
+<img src="/assets/images/me/me-friends-bruxelles.jpg" alt="A picture of me with my friends from Murcia." width="300" class="centered-image">
+
+You can feel the cold in the picture, right?
 
 [^1]: Disclaimer: Joke provided by [jokeAPI](https://sv443.net/jokeapi/v2/).

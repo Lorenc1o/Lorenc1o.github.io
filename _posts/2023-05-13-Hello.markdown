@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to My Blog"
 date:   2023-05-13
-categories: welcome blog presentation
 ---
 
 # Welcome to My Blog
