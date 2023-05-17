@@ -13,6 +13,10 @@
   margin-right: auto;
 }
 
+.site-nav {
+  z-index: 2;
+}
+
 /* Desktop styles */
 @media (min-width: 768px) {
   .toc-nav {
@@ -31,6 +35,7 @@
     position: relative;
     width: 100%;
     clear: both;
+    z-index: 1;
   }
 
   .toc-nav ul {
