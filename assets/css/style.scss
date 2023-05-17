@@ -27,9 +27,15 @@
 
 /* Mobile styles */
 @media (max-width: 767px) {
+  body {
+    padding-top: 10%; /* Adjust this value based on the actual height of your ToC */
+  }
+
   .toc-nav {
-    position: relative;
+    position: fixed;
+    top: 0; /* This makes sure the ToC sticks to the top */
     width: 100%;
+    height: 10%; /* Adjust this value based on the actual height of your ToC */
     clear: both;
   }
 
