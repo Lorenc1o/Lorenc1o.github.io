@@ -17,10 +17,10 @@
 @media (min-width: 768px) {
   .toc-nav {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 3%;
     height: 100%;
-    width: 200px;
+    width: 20%;
     overflow: auto;
   }
 }
@@ -28,7 +28,7 @@
 /* Mobile styles */
 @media (max-width: 767px) {
   .toc-nav {
-    position: relative;
+    position: fixed;
     width: 100%;
     clear: both;
   }

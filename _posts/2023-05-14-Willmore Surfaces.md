@@ -6,25 +6,25 @@ categories: Mathematics
 usemathjax: true
 toc:
     -
-        name: Introduction
+        title: Introduction
         url: '#introduction'
     -
-        name: History
+        title: History
         url: '#history'
     -
-        name: The Willmore functional
+        title: The Willmore functional
         url: '#the-willmore-functional'
     -
-        name: The Willmore conjecture
+        title: The Willmore conjecture
         url: '#the-willmore-conjecture'
     -
-        name: Conformal invariance
+        title: Conformal invariance
         url: '#conformal-invariance'
     -
-        name: First variation formula
+        title: First variation formula
         url: '#first-variation'
     -
-        name: References
+        title: References
         url: '#references'
 ---
 # Willmore Surfaces
