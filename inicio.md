@@ -1,6 +1,9 @@
 ---
 layout: home
 lang: es
+permalink: /inicio
+en_link: /
+fr_link: /accueil
 ---
 
 Hola, creo que mi nombre ya aparece demasiadas veces en esta página web, así que me lo voy a saltar. Aquí encontrarás mis [entradas de blog](/blog) y [proyectos](/projects).
@@ -16,8 +19,6 @@ window.onload = function() {
         });
 };
 </script>
-
-Now a joke for you[^1]:
 
 Aquí tienes un chiste[^1] (lo siento, está en inglés :():
 

@@ -32,6 +32,18 @@
           {% endfor %} 
           {% endif %} 
           {% endfor %}
+
+          {% if page.en_link %}
+            <a href="{{ page.en_link }}" class="button button--small button--primary float-right">en</a>
+          {% endif %}
+
+          {% if page.es_link %}
+            <a href="{{ page.es_link }}" class="button button--small button--primary float-right">es</a>
+          {% endif %}
+
+          {% if page.fr_link %}
+            <a href="{{ page.fr_link }}" class="button button--small button--primary float-right">fr</a>
+          {% endif %}
           </div>
         </nav>
       {%- endif -%}  

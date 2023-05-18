@@ -23,3 +23,15 @@ languages:
         url: /sobre
       - title: "Categorias"
         url: /categories
+  - language: "fr"
+    links:
+      - title: "Accueil"
+        url: /accueil
+      - title: "Blog"
+        url: /blog
+      - title: "Projets"
+        url: /projects
+      - title: "À propos"
+        url: /about
+      - title: "Catégories"
+        url: /categories

@@ -51,3 +51,14 @@
   text-align: right;
   margin-right: 20%;
 }
+
+.lang-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.lang-nav a {
+  margin-left: 10px;
+}
