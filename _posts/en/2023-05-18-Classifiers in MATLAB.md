@@ -58,16 +58,16 @@ The **nearest neighbor predictor** uses the local neighborhood of an input point
 
 The approach of these method is quite straightforward, and is detailed in the following pseudocode:
 
-'''python
+```python
 Training
 	Store all training examples
 
 Prediction
 	Given an input X:
 		1. Compute distance/similarity with all examples in the training set.
-		2. Locate <@$k$@> closest points.
-		3. Emit prediction by combining outputs of the <@$k$@> closest points.
-'''
+		2. Locate k closest points.
+		3. Emit prediction by combining outputs of the k closest points.
+```
 
 Of course, we have to decide:
 - The distance/similarity function.
@@ -80,7 +80,7 @@ Now, we are going to see how to use these methods in MATLAB.
 
 We are going to develop a classification example, using the famous Iris dataset.
 
-```matlab:Code
+```matlab
 load fisheriris
 f = figure;
 gscatter(meas(:,1), meas(:,2), species,'rgb','o',5);
@@ -90,7 +90,7 @@ ylabel('Sepal width');
 
 We can perform LDA, to obtain a linear classifier:
 
-```matlab:Code
+```matlab
 lda = fitcdiscr(meas(:,1:2),species);
 ldaClass = resubPredict(lda);
 
@@ -105,7 +105,7 @@ hold off;
 
 Now we can draw the regions:
 
-```matlab:Code
+```matlab
 figure;
 [x,y] = meshgrid(4:.01:8,2:.01:4.5);
 x = x(:);
@@ -130,7 +130,7 @@ As we can see, the decision boundaries are hyperplanes (lines in the 2D case), w
 ## QDA {#qda}
 Let's now repeat this with QDA, so that we can obtain non-linear regions:
 
-```matlab:Code
+```matlab
 f2 = figure;
 gscatter(meas(:,1), meas(:,2), species,'rgb','o',5);
 xlabel('Sepal length');
@@ -147,7 +147,7 @@ hold off;
 ```
 <img src="/assets/images/classifiers_matlab/figure_2.png" alt="Iris dataset classification with QDA." width="400" class="centered-image">
 
-```matlab:Code
+```matlab
 
 figure;
 [x2,y2] = meshgrid(4:.01:8,2:.01:4.5);
@@ -176,7 +176,7 @@ For instance, a hyperplane is always 'the same', in the sense that all hyperplan
 ## kNN {#knn}
 A final example with a knn classifier:
 
-```matlab:Code
+```matlab
 % Train kNN classifier
 k = 5; % You can change this value to choose a different number of neighbors
 knn = fitcknn(meas(:,1:2), species, 'NumNeighbors', k);
@@ -196,7 +196,7 @@ hold off;
 
 <img src="/assets/images/classifiers_matlab/figure_4.png" alt="Iris dataset classification with kNN." width="400" class="centered-image">
 
-```matlab:Code
+```matlab
 
 % Visualize the decision regions
 figure;
@@ -224,7 +224,7 @@ This method generates more complex decision boundaries, which are not even conti
 
 It is a remarkable fact that they get smoother when k increases:
 
-```matlab:Code
+```matlab
 load fisheriris
 
 % Define custom colors for the species
