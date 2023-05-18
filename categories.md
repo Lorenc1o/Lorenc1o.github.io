@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Categories
+lang: en
 ---
 
 Here you can find all my posts grouped by categories.
