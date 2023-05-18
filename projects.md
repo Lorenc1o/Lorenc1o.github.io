@@ -2,6 +2,7 @@
 layout: page
 title: "Projects"
 permalink: /projects/
+lang: en
 ---
 Here are some of my projects:
 
