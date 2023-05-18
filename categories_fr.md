@@ -2,7 +2,7 @@
 layout: default
 title: Catégories
 lang: fr
-permalink: /categories_es
+permalink: /categories_fr
 en_link: /categories
 es_link: /categories_es
 ---
