@@ -22,7 +22,7 @@ languages:
       - title: "Sobre mi"
         url: /sobre
       - title: "Categorias"
-        url: /categories
+        url: /categories_es
   - language: "fr"
     links:
       - title: "Accueil"
@@ -34,4 +34,4 @@ languages:
       - title: "À propos"
         url: /about
       - title: "Catégories"
-        url: /categories
+        url: /categories_fr

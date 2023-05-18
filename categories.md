@@ -2,6 +2,9 @@
 layout: default
 title: Categories
 lang: en
+permalink: /categories
+es_link: /categories_es
+fr_link: /categories_fr
 ---
 
 Here you can find all my posts grouped by categories.
