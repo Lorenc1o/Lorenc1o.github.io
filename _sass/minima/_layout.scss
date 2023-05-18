@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+  background-color: #FFFBE9;
   border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
@@ -12,7 +13,7 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include relative-font-size(1.5);
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -122,6 +123,7 @@
  * Site footer
  */
 .site-footer {
+  background-color: #FFFBE9;
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
 }
