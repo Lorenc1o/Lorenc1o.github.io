@@ -26,7 +26,7 @@ xlabel('Sepal length');
 ylabel('Sepal width');
 ```
 
-{#lda}
+## LDA {#lda}
 We can perform LDA, to obtain a linear classifier:
 
 ```matlab:Code
@@ -66,7 +66,7 @@ legend('versicolor','setosa','virginica')
 
 As we can see, the decision boundaries are hyperplanes (lines in the 2D case), which is a characteristic of linear classifiers.
 
-{#qda}
+## QDA {#qda}
 Let's now repeat this with QDA, so that we can obtain non-linear regions:
 
 ```matlab:Code
@@ -112,7 +112,7 @@ In this example we observe that the decision boundaries are no longer linear: th
 
 For instance, a hyperplane is always 'the same', in the sense that all hyperplanes are isomorphic. On the other hand, quadrics are much more complex. In 2D, for example, these are the conics, which can take the form of a line, a ellipse (with the circunference as special case), a parabola or an hyperbola. This variety increases highly with the dimensionality. In 3D and above they are usually called quadrics, and in 3D there are 17 standard-form types [[quadrics - wolfram mathworld]](https://mathworld.wolfram.com/QuadraticSurface.html#:~:text=Quadratic%20surfaces%20are%20also%20called,are%2017%20standard%2Dform%20types.).
 
-{#knn}
+## kNN {#knn}
 A final example with a knn classifier:
 
 ```matlab:Code
