@@ -25,6 +25,7 @@ toc:
         title: Contact
         url: '#contact'
 lang: en
+es_link: /sobre
 ---
 
 # About me {#about}
