@@ -6,6 +6,9 @@ lang: en
 categories: [Machine Learning, MATLAB]
 toc:
     -
+        title: "Theoretical background"
+        url: "#theoretical-background"
+    -
         title: "LDA"
         url: "#lda"
     -
@@ -14,7 +17,37 @@ toc:
     -
         title: "KNN"
         url: "#knn"
+usemathjax: true
 ---
+
+## Theoretical background {#theoretical-background}
+
+Discriminant analysis is the result of implementing a Bayes classifier assuming that the class-conditional distributions
+\\(p\\left(x|y\\right)\\) are gaussian. This means that, having \\(\\mathcal{Y}=\\left\\{ c_{1},...,c_{K}\\right\\}\\),
+then it is
+\\[p\\left(x|y=c_{k}\\right)\\sim\\mathcal{N}\\left(\\mu_{k},\\Sigma_{k}\\right).\\]
+If we also assume that the prior distributions are 
+\\[p\\left(y=c_{k}\\right)=\\pi_{k},\\]
+with \\(\\sum_{k}\\pi_{k}=1\\), then we define the **discriminant functions**
+\\[g_{k}\left(x\right)=\log\left(P\left(y=c_{k}\right)P\left(x|y=x_{k}\right)\right)\\]
+\\[= \log\left(\pi_{k}\cdot\frac{1}{\det\left(\Sigma_{k}\right)^{\frac{1}{2}}\left(2\pi\right)^{\frac{d}{2}}}\exp\left\\{ -\frac{1}{2}\left(x-\mu_{k}\right)^{T}\Sigma^{-1}\left(x-\mu_{k}\right)\right\\} \right)\\]
+\\[= \log\pi_{k}-\frac{1}{2}\log\left(\det\Sigma_{k}\right)-\frac{d}{2}\log\left(2\pi\right)-\frac{1}{2}\left(x-\mu_{k}\right)^{T}\Sigma^{-1}\left(x-\mu_{k}\right)\\]
+\\[=\log\pi_{k}-\frac{1}{2}\left[\log\left(\det\Sigma_{k}+\left(x-\mu_{k}\right)^{T}\Sigma_{k}^{-1}\left(x-\mu_{k}\right)\right)\right]+const.\\]
+This is a **quadratic discriminant function**, and the corresponding classifier is implemented by predicting
+\\[ y'=c_{k'},\ where\ k'=\arg\max_{k}g_{k}\left(x\right).\\]
+This corresponds to choosing the label with maximum probability a posteriori.
+
+The **decision boundaries** in this case are those regions in which there exist \\(k_{1},k_{2}\\) with
+\\[g_{k_{1}}\left(x\right)=g_{k_{2}}\left(x\right).\\]
+These corresponds to hyper-quadrics in the feature space, and this is a quadratic method, usually called **quadratic discriminant analysis (QDA)**.
+
+Of course, we can further simplify our assumptions, by assuming that all labels have the same covariance matrix, \\(\Sigma_{k}=\Sigma\\) for all $k=1,...,K$. In this simpler case, the discriminant functions end up being
+\\[g_{k}\left(x\right)=\log\pi_{k}+\mu_{k}^{T}\Sigma^{-1}x-\frac{1}{2}\mu_{k}^{T}\Sigma^{-1}\mu_{k},\\]
+because now \\(\det\Sigma_{k}=\det\Sigma\\) is constant for all \\(k\\), so we can remove it. Furthermore, the term \\(x^{T}\Sigma_{k}^{-1}x=x^{T}\Sigma^{-1}x\\) is also constant with respect to \\(k\\), so it will not affect the \\(k\\) chosen. Therefore, we end up with **linear discriminant functions**, in which the **decision boundaries** correspond to hyperplanes in the feature space. This is a linear method, usually called **linear discriminant analysis (LDA)**.
+
+Now, we are going to see how to use these methods in MATLAB.
+
+## LDA {#lda}
 
 We are going to develop a classification example, using the famous Iris dataset.
 
@@ -26,7 +59,6 @@ xlabel('Sepal length');
 ylabel('Sepal width');
 ```
 
-## LDA {#lda}
 We can perform LDA, to obtain a linear classifier:
 
 ```matlab:Code
