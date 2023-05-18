@@ -2,9 +2,10 @@
 layout: post
 title:  "Welcome to My Blog"
 date:   2023-05-13
+lang: en
+es_link: /2023/05/13/Hola
+fr_link: /2023/05/13/Bonjour
 ---
-
-# Welcome to My Blog
 
 Hello there! This is my first blog post. It is just a test and probably nobody will ever read it. But if you do, please let me know. I would be very happy to hear from you.
 

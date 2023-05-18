@@ -16,7 +16,7 @@ languages:
       - title: "Inicio"
         url: /inicio
       - title: "Blog"
-        url: /blog
+        url: /blog_es
       - title: "Proyectos"
         url: /projects
       - title: "Sobre mi"
@@ -28,7 +28,7 @@ languages:
       - title: "Accueil"
         url: /accueil
       - title: "Blog"
-        url: /blog
+        url: /blog_fr
       - title: "Projets"
         url: /projects
       - title: "À propos"

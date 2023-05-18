@@ -26,6 +26,7 @@ toc:
     -
         title: References
         url: '#references'
+lang: en
 ---
 # Willmore Surfaces
 

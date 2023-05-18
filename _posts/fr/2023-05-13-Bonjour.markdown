@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Bienvenu à mon blog"
+date:   2023-05-13
+lang: fr
+en_link: /2023/05/13/Hello
+es_link: /2023/05/13/Hola
+---
+
+Bonjour! Ceci est mon premier post. C'est juste un test et probablement personne ne le lira. Mais si vous le faites, s'il vous plaît laissez-moi savoir. Je serais très heureux d'avoir de vos nouvelles.
+
+J'espère que la prochaine fois j'aurai quelque chose de plus intéressant à dire.
+
+Au revoir pour l'instant!

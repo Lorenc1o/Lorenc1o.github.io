@@ -34,15 +34,21 @@
           {% endfor %}
 
           {% if page.en_link %}
-            <a href="{{ page.en_link }}" class="button button--small button--primary float-right">en</a>
+            <a href="{{ page.en_link }}" class="button button--small button--primary float-right">
+              <img src="/assets/images/lang/en.png" alt="English" width="20px" height="15px">
+            </a>
           {% endif %}
 
           {% if page.es_link %}
-            <a href="{{ page.es_link }}" class="button button--small button--primary float-right">es</a>
+            <a href="{{ page.es_link }}" class="button button--small button--primary float-right">
+              <img src="/assets/images/lang/es.png" alt="Español" width="20px" height="15px">
+            </a>
           {% endif %}
 
           {% if page.fr_link %}
-            <a href="{{ page.fr_link }}" class="button button--small button--primary float-right">fr</a>
+            <a href="{{ page.fr_link }}" class="button button--small button--primary float-right">
+              <img src="/assets/images/lang/fr.png" alt="Français" width="20px" height="15px">
+            </a>
           {% endif %}
           </div>
         </nav>
