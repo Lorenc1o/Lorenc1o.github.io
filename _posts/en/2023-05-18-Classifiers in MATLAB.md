@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Classifiers in MATLAB"
-date: 2023-05-19
+date: 2023-05-18
 lang: en
 categories: [Machine Learning, MATLAB]
 ---
