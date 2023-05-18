@@ -2,6 +2,7 @@
 layout: base
 title: "Blog"
 permalink: /blog/
+lang: en
 ---
 
 Here are my blog posts:
