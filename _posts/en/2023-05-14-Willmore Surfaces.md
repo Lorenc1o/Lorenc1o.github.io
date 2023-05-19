@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Willmore Surfaces"
+permalink: /posts/en/willmore-surfaces
 date:   2023-05-14
 categories: Mathematics
 usemathjax: true
@@ -27,7 +28,7 @@ toc:
         title: References
         url: '#references'
 lang: en
-es_link: /mathematics/2023/05/14/Superficies-de-Willmore
+es_link: /posts/es/willmore-surfaces
 ---
 
 ## Introduction {#introduction}
