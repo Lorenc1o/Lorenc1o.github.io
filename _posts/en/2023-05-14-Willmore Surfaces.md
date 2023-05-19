@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Willmore Surfaces"
-date:   2023-05-15
+date:   2023-05-14
 categories: Mathematics
 usemathjax: true
 toc:
