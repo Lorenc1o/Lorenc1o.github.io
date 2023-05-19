@@ -27,6 +27,7 @@ toc:
         title: References
         url: '#references'
 lang: en
+es_link: /mathematics/2023/05/14/Superficies-de-Willmore
 ---
 
 ## Introduction {#introduction}

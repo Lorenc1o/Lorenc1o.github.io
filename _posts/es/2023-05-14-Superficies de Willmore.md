@@ -27,7 +27,7 @@ toc:
         title: Referencias
         url: '#references'
 lang: es
-en_link: /2023/05/14/Willmore-Surfaces
+en_link: /mathematics/2023/05/14/Willmore-Surfaces
 ---
 
 ## Introducción {#introduction}
