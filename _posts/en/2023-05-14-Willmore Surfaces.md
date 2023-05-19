@@ -28,7 +28,6 @@ toc:
         url: '#references'
 lang: en
 ---
-# Willmore Surfaces
 
 ## Introduction {#introduction}
 
@@ -40,7 +39,7 @@ If you are interested in the topic, you can read the [full thesis](https://githu
 
 ## History {#history}
 
-Willmore surfaces have been a subject of significant interest since their inception in 1965 when Willmore published his influential article Note on embedded surfaces [^1]. He defined a functional, later named after him, given by \\[\\tau(S)=\\frac{1}{2\\pi}\\int_{S}H^2dS\\], where \\(S\\) is a closed orientable regular surface of Euclidean space and \\(dS\\) its area element, with \\(H\\) denoting the mean curvature of \\(S\\). Willmore aimed to find the relationship between this functional and the Euler characteristic, \\(\\mathcal X(S)\\), hoping to discover a relation akin to the Gauss-Bonnet theorem. Although such a relation was not established, Willmore managed to extract properties of \(\\tau(S)\) knowing the value of \\(\\mathcal X(S)\\). For example, he proved that for a sphere of radius \\(r>0\\), \\[\\tau(\\mathbb{S}^2(r))=2\\], which is the infimum (and minimum) of \\(\\tau\\) for all possible surfaces \\(S\\) with \\(\\mathcal{X}(\\mathcal{S})=2\\).
+Willmore surfaces have been a subject of significant interest since their inception in 1965 when Willmore published his influential article Note on embedded surfaces [^1]. He defined a functional, later named after him, given by \\[\\tau(S)=\\frac{1}{2\\pi}\\int_{S}H^2dS\\], where \\(S\\) is a closed orientable regular surface of Euclidean space and \\(dS\\) its area element, with \\(H\\) denoting the mean curvature of \\(S\\). Willmore aimed to find the relationship between this functional and the Euler characteristic, \\(\\mathcal X(S)\\), hoping to discover a relation akin to the Gauss-Bonnet theorem. Although such a relation was not established, Willmore managed to extract properties of \(\\tau(S)\) knowing the value of \\(\\mathcal X(S)\\). For example, he proved that for a sphere of radius \\(r>0\\), \\[\\tau(\\mathbb{S}^2(r))=2\\], which is the infimum (and minimum) of \\(\\tau\\) for all possible surfaces \\(S\\).
 
 The functional was later generally defined as \\[W(S) = \\int_{S}H^2dS\\], effectively multiplying Willmore's original functional by \\(2\\pi\\). The study of both functionals is equivalent when it comes to finding surfaces that minimize them. Another alternative definition is \\[W(S) = \\int_{S}(H^2-K)dS\\], where \\(K\\) is the Gaussian curvature of the surface at each point. This functional is also equivalent to the previous ones, as the Gauss-Bonnet theorem means that only a constant term is being added. After finding the absolute minimum of \\(W\\), Willmore attempted to reach a similar result for surfaces with Euler characteristic \\(\\mathcal{X}(S)=0\\), such as surfaces that are homeomorphic to a torus. While he didn't achieve this, he characterized the minimum of \\(\\tau\\) among all tori of revolution, leading to what became known as the Willmore conjecture. This conjecture was eventually proven by Marques and Neves in 2014, almost 50 years after it was first stated [^2].
 
