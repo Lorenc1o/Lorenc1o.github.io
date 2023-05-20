@@ -12,6 +12,16 @@ toc:
     -
         title: Experiencia
         url: '#work-experience'
+        subsections:
+        -
+            title: Research Assistant @ UMU
+            url: '#research-assistant-at-the-universidad-de-murcia'
+        -
+            title: Data Scientist Intern @ Orenes Grupo
+            url: '#data-scientist-intern-at-orenes-grupo'
+        -
+            title: Freelance Software Developer
+            url: '#freelance-software-developer'
     -
         title: Idiomas
         url: '#languages'
@@ -52,18 +62,18 @@ Además, casi he terminado un Grado en Economía en la <a href="https://www.uned
 
 ## Experiencia laboral {#work-experience} 
 
-### Colaborador de Investigación en la <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a>
+### Colaborador de Investigación en la <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> {#research-assistant-at-the-universidad-de-murcia}
 
 Recibí una beca del Ministerio de Educación de España para trabajar como Colaborador de Investigación en la <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> de octubre de 2021 a junio de 2022. Durante este tiempo, estudié el problema de modelar el comportamiento elástico del tejido mamario en el contexto de la cirugía de cáncer de mama. Desarrollé un módulo en C++, utilizando la [biblioteca deal.II](https://www.dealii.org/), para resolver el problema numéricamente. También desarrollé un módulo en MATLAB para convertir archivos stl en archivos vtk, que son los archivos de entrada para el módulo en C++.
 
 Los resultados de este trabajo se han publicado en mi Trabajo de Fin de Grado en Ingeniería Informática, que puedes encontrar [aquí](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/ComputerScience/TFG/TFG_FEM.pdf).
 
 
-### Data Scientist Intern en <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a>
+### Data Scientist Intern en <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a> {#data-scientist-intern-at-orenes-grupo}
 
 Trabajé como Data Scientist Intern en <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a> de julio de 2022 a septiembre de 2022. Durante este tiempo, desarrollé un workflow de Machine Learning para predecir el uso de las máquinas tragaperras en los diferentes casinos de la empresa. El workflow involucraba todos los pasos de una pipeline de MLOps, desde la recolección de datos hasta la implementación del modelo. Utilicé Python, SQL, AWS y Airflow para desarrollarlo. También desarrollé un dashboard para visualizar los resultados del workflow, utilizando Power BI. El modelo final desarrollado fue una red neuronal LSTM, que fue lanzada a producción.
 
-### Freelance Software Developer
+### Freelance Software Developer {#freelance-software-developer}
 
 No estoy del todo seguro de cómo titular esta experiencia. Hay un centro tecnológico en mi pueblo llamado <a href="https://ctmarmol.es/" style="color:#B00000">'Centro Tecnológico del Mármol y la Piedra'</a>, que es un centro de investigación que se centra en el desarrollo de software para la industria del mármol y la construcción. Suelen trabajar en proyectos europeos, y han confiado en mí para desarrollar parte del software para estos proyectos. He trabajado con ellos en dos proyectos diferentes:
 

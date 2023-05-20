@@ -12,6 +12,16 @@ toc:
     -
         title: Work Experience
         url: '#work-experience'
+        subsections:
+        -
+            title: Research Assistant @ UMU
+            url: '#research-assistant-at-the-universidad-de-murcia'
+        -
+            title: Data Scientist Intern @ Orenes Grupo
+            url: '#data-scientist-intern-at-orenes-grupo'
+        -
+            title: Freelance Software Developer
+            url: '#freelance-software-developer'
     -
         title: Languages
         url: '#languages'
@@ -51,17 +61,17 @@ Also, I have almost finished a Bachelor's Degree in Economics at the <a href="ht
 
 ## Work Experience {#work-experience} 
 
-### Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a>
+### Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> {#research-assistant-at-the-universidad-de-murcia}
 
 I received a grant from the Spanish Ministry of Education to work as a Research Assistant at the <a href="https://www.um.es/en/web/inicio" style="color:#FF995F">Universidad de Murcia</a> from October of 2021 to June of 2022. During this time, I studied the problem of modelling the elastic behavior of breast tissue in the context of breast cancer surgery. I developed a C++ module, using the [deal.II library](https://www.dealii.org/), to solve the problem numerically. I also developed a MATLAB module to convert stl files into vtk files, which are the input files for the C++ module.
 
 The results of this work have been published in my Computer Science Bachelor's Thesis, which you can find [here](https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/ComputerScience/TFG/TFG_FEM.pdf).
 
-### Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a>
+### Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a> {#data-scientist-intern-at-orenes-grupo}
 
 I worked as a Data Scientist Intern at <a href="https://www.orenesgrupo.com/" style="color:#7CC736">Orenes Grupo</a> from July of 2022 to September of 2022. During this time, I developed a Machine Learning workflow to predict the usage of slot machines in the different casinos of the company. The workflow involved all the steps of a MLOps pipeline, from data collection to model deployment. I used Python, SQL, AWS, and Airflow to develop the workflow. I also developed a dashboard to visualize the results of the workflow, using Power BI. The final model developed was a LSTM neural network, which was launched into production.
 
-### Freelance Software Developer
+### Freelance Software Developer {#freelance-software-developer}
 
 I am not completely sure how to call this. There is a tech center in my town called <a href="https://ctmarmol.es/" style="color:#B00000">'Centro Tecnológico del Mármol y la Piedra'</a>, which is a research center that focuses on the development of software for the marble industry. They usually work in European projects, and they have trusted me to develop some of the software for these projects. I have worked with them in two different projects:
 
