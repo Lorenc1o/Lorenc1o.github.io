@@ -45,25 +45,17 @@
 /* Mobile styles */
 @media (max-width: 767px) {
   .toc-nav {
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: $spacing-unit * 1.865;
     clear: both;
     z-index: 1;
-  }  
-
-  .main-content {
-    padding-top: $spacing-unit * 1.865;
   }
-  
 
   .toc-nav ul {
-    height: 0;
-    overflow: hidden;
+    display: none;
   }
-  
+
   .toc-nav.active ul {
-    height: auto;
+    display: block;
   }
-  
 }
