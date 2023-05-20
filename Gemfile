@@ -36,3 +36,5 @@ gem 'faraday-retry'
 gem 'webrick'
 
 gem 'jekyll-multiple-languages-plugin'
+
+gem 'jekyll-sitemap'
