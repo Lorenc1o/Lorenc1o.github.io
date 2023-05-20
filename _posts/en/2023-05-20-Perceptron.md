@@ -21,11 +21,21 @@ toc:
         title: Newton's method
         url: '#newton'
     -
+        title: Training a perceptron
+        url: '#training'
+    -
         title: MATLAB implementation
         url: '#implementation'
     -
+        title: Implementation with step function
+        url: '#step'
+    -
+        title: Implementation with sigmoid function
+        url: '#sigmoid'
+    -
         title: References
         url: '#references'
+lang: en
 ---
 
 ## Introduction {#intro}
@@ -469,6 +479,16 @@ speedup = 1.9791e+03
 ```
 
 Almost 2000 times faster in terms of iterations...
+
+## Conclusions {#conclusions}
+
+In this post we have understood the basics of the perceptron, and how it is useful to classify data. We have seen several methods to train it in the simple case of binary classification, and we have seen how IRLS needed much less iterations than GD to converge. Nonetheless, computing the Hessian can be quite expensive, and finding its inverse is not always possible. 
+
+We have seen how to implement the perceptron in Matlab, and how to train it using GD and IRLS, and even if the examples provided seems to be easy, you can change the data to whatever binary classification problem you want and it will work (note that this algorithms are not as optimized as the ones in Matlab, so they will be slower, but they will work).
+
+I hope you learned something new, and if you have any question, feel free to ask me! In following posts we will see how to extend the perceptron to multiclass classification, and how to use it to solve regression problems. Then, we will be ready to see how perceptrons can be used to create neural networks, and how to train them using backpropagation.
+
+See you in the next post!
 
 ## References {#references}
 
