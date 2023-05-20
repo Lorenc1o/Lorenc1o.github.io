@@ -43,7 +43,7 @@ toc:
         title: References
         url: '#references'
 lang: en
-es_url: /posts/es/Perceptron
+es_link: /posts/es/Perceptron
 ---
 
 ## Introduction {#intro}
