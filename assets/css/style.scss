@@ -47,15 +47,23 @@
   .toc-nav {
     position: fixed;
     width: 100%;
+    top: $spacing-unit * 1.865;
     clear: both;
     z-index: 1;
+  }  
+
+  .main-content {
+    padding-top: $spacing-unit * 1.865;
   }
+  
 
   .toc-nav ul {
-    display: none;
+    height: 0;
+    overflow: hidden;
   }
-
+  
   .toc-nav.active ul {
-    display: block;
+    height: auto;
   }
+  
 }

@@ -64,7 +64,7 @@ Here we can see a diagram of a neuron:
 The neuron receives information from other neurons through the dendrites. This information is processed in the soma, and if it is enough, it fires through the axon, sending signals to other neurons through the synapses, which are the junctions between the axon terminals and the dendrites of other neurons.
 
 Therefore, the neuron can be seen as a binary logic gate, which receives inputs and either produces an output or not. Mathematically, this writes as a function
-\\[f:\mathbb{R}^n\rightarrow\{0,1\}\\]
+\\[f:\mathbb{R}^n\rightarrow\\{0,1\\}\\]
 where \\(n\\) is the number of inputs, and \\(f\\) is the activation function. This function can be defined in different ways, but the most intuitive one is to first perform a weighted sum of the inputs, and then apply a threshold function to the result. This approach is intuitive because the weighted sum is capturing the idea of the neuron being connected to other neurons, with different levels of importance, and the threshold function is capturing the idea of the neuron firing or not. Therefore, the activation function can be written as
 \\[f(x)=\begin{cases}1&\text{if }w^Tx+b>0\\\\0&\text{otherwise}\end{cases}\\]
 where \\(x\in\mathbb{R}^n\\) is the input, \\(w\in\mathbb{R}^n\\) is the weight vector, and \\(b\in\mathbb{R}\\) is the bias. The bias can be seen as the threshold of the neuron, and the weight vector as the importance of each input.
