@@ -52,19 +52,19 @@ Let's break this down a bit. I am not a biology guy, so forgive me if I am not a
 
 Here we can see a diagram of a neuron:
 
-<img src="/assets/images/posts/perceptron/neuron.png" alt="Diagram of a Neuron" width="400"/>
+<img src="/assets/images/perceptron/neuron.png" alt="Diagram of a Neuron" width="400" class="centered-image"/>
 
 The neuron receives information from other neurons through the dendrites. This information is processed in the soma, and if it is enough, it fires through the axon, sending signals to other neurons through the synapses, which are the junctions between the axon terminals and the dendrites of other neurons.
 
 Therefore, the neuron can be seen as a binary logic gate, which receives inputs and either produces an output or not. Mathematically, this writes as a function
 \\[f:\mathbb{R}^n\rightarrow\{0,1\}\\]
 where \\(n\\) is the number of inputs, and \\(f\\) is the activation function. This function can be defined in different ways, but the most intuitive one is to first perform a weighted sum of the inputs, and then apply a threshold function to the result. This approach is intuitive because the weighted sum is capturing the idea of the neuron being connected to other neurons, with different levels of importance, and the threshold function is capturing the idea of the neuron firing or not. Therefore, the activation function can be written as
-\\[f(x)=\begin{cases}1&\text{if }w^Tx+b>0\\0&\text{otherwise}\end{cases}\\]
+\\[f(x)=\begin{cases}1&\text{if }w^Tx+b>0\\\\0&\text{otherwise}\end{cases}\\]
 where \\(x\in\mathbb{R}^n\\) is the input, \\(w\in\mathbb{R}^n\\) is the weight vector, and \\(b\in\mathbb{R}\\) is the bias. The bias can be seen as the threshold of the neuron, and the weight vector as the importance of each input.
 
 A visual representation of this function can be seen in the following figure:
 
-<img src="/assets/images/posts/perceptron/perceptron.png" alt="Diagram of a perceptron" width="400"/>
+<img src="/assets/images/perceptron/perceptron.png" alt="Diagram of a perceptron" width="400" class="centered-image"/>
 
 ## Finding weights and bias {#weights}
 
@@ -136,7 +136,7 @@ hold on
 ylim([-0.1,0.1])
 hold off
 ```
-<img src="/assets/images/posts/perceptron/figure_0.png" alt="Expected outcome of the classification" width="400"/>
+<img src="/assets/images/perceptron/figure_0.png" alt="Expected outcome of the classification" width="400" class="centered-image"/>
 
 Now, this case is quite easy, and we can do it by hand. We know that the model is a line, and we can see that the line that separates the two classes is \\(x=0.5\\). Therefore, we can define the weights as \\(w=[-0.5,1]^T\\).
 
@@ -171,7 +171,7 @@ ylim([-0.1,0.1])
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_1.png" alt="Classification of the data using the manually set perceptron" width="400"/>
+<img src="/assets/images/perceptron/figure_1.png" alt="Classification of the data using the manually set perceptron" width="400" class="centered-image"/>
 
 It classified perfectly! Now let's train using the algorithm. First, we need to define the functions that we will need:
 
@@ -235,7 +235,7 @@ ylim([-0.1,0.1])
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_2.png" alt="Classification of the data using the trained perceptron" width="400"/>
+<img src="/assets/images/perceptron/figure_2.png" alt="Classification of the data using the trained perceptron" width="400" class="centered-image"/>
 
 This is quite interesting... it found different weights, but it classified eveything well. This must break somewhere. Let's try to determine where:
 
@@ -261,7 +261,7 @@ xlim([0.45,0.55])
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_3.png" alt="Classification of the data using the trained perceptron" width="400"/>
+<img src="/assets/images/perceptron/figure_3.png" alt="Classification of the data using the trained perceptron" width="400" class="centered-image"/>
 
 ```matlab:Code
 y(pred3~=y)
@@ -297,7 +297,7 @@ legend('0','1','Real separation','Location','northoutside')
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_4.png" alt="Expected classification output" width="400"/>
+<img src="/assets/images/perceptron/figure_4.png" alt="Expected classification output" width="400" class="centered-image"/>
 
 Let's train using gradient descent. Again, we define our training functions:
 
@@ -391,7 +391,7 @@ legend('0','1','Real separation','Location','northoutside')
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_5.png" alt="Classification of the data using the trained perceptron" width="400"/>
+<img src="/assets/images/perceptron/figure_5.png" alt="Classification of the data using the trained perceptron" width="400" class="centered-image"/>
 
 We can observe how it is quite ok... Let's increment the max_iter parameters:
 
@@ -419,7 +419,7 @@ legend('0','1','Real separation','Location','northoutside')
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_6.png" alt="Classification of the data using the trained perceptron with gradient descend" width="400"/>
+<img src="/assets/images/perceptron/figure_6.png" alt="Classification of the data using the trained perceptron with gradient descend" width="400" class="centered-image"/>
 
 And in fact it is much better! :D
 
@@ -451,7 +451,7 @@ legend('0','1','Real separation','Location','northoutside')
 hold off
 ```
 
-<img src="/assets/images/posts/perceptron/figure_7.png" alt="Classification of the data using the trained perceptron with IRLS" width="400"/>
+<img src="/assets/images/perceptron/figure_7.png" alt="Classification of the data using the trained perceptron with IRLS" width="400" class="centered-image"/>
 
 We can see how this time we also obtain nice separation, and this one even finishes before maxiter is reached. In fact, we can try to see how many iterations would GD need:
 
