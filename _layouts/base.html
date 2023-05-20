@@ -26,6 +26,22 @@
     {%- include footer.html -%}
 
     <script>
+      document.querySelectorAll('.toc-nav .section').forEach(function(item) {
+        item.addEventListener('click', function() {
+          let subsections = this.querySelector('.subsections');
+          if (subsections) {
+            if (subsections.style.display === "none") {
+              subsections.style.display = "block";
+            } else {
+              subsections.style.display = "none";
+            }
+          }
+        });
+      });
+    </script>
+      
+
+    <script>
       document.querySelector('.toc-nav h3').addEventListener('click', function() {
         document.querySelector('.toc-nav').classList.toggle('active');
       });

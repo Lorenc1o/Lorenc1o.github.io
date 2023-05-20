@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Perceptron: The prelude of the neural networks"
+date: 2023-05-20 00:00:00 -0000
+author: Jose Antonio Lorencio Abril
 categories: [Machine Learning, MATLAB]
 permalink: /posts/en/Perceptron
 usemathjax: true
@@ -14,24 +16,29 @@ toc:
     -
         title: Finding weights and bias
         url: '#weights'
-    -
-        title: Gradient descent
-        url: '#gradient'
-    -
-        title: Newton's method
-        url: '#newton'
-    -
-        title: Training a perceptron
-        url: '#training'
+        subsections:
+            -
+                title: Gradient descent
+                url: '#gradient'
+            -
+                title: Newton's method
+                url: '#newton'
+            -
+                title: Training a perceptron
+                url: '#training'
     -
         title: MATLAB implementation
         url: '#implementation'
+        subsections:
+            -
+                title: Implementation with step function
+                url: '#step'
+            -
+                title: Implementation with sigmoid function
+                url: '#sigmoid'
     -
-        title: Implementation with step function
-        url: '#step'
-    -
-        title: Implementation with sigmoid function
-        url: '#sigmoid'
+        title: Conclusions
+        url: '#conclusions'
     -
         title: References
         url: '#references'

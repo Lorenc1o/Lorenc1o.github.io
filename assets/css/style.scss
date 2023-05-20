@@ -23,10 +23,23 @@
     position: fixed;
     top: 10%;
     left: 3%;
-    height: 100%;
+    max-height: 100%;
     width: 20%;
-    overflow: auto;
+    overflow-y: scroll;
   }
+  .toc-nav::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  .toc-nav::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the tracking area */
+  }
+  .toc-nav::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scroll thumb */
+  }
+  .toc-nav::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scroll thumb on hover */
+  }
+  
 }
 
 /* Mobile styles */

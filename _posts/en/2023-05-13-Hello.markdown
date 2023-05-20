@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to My Blog"
 date:   2023-05-13
+author: Jose Antonio Lorencio Abril
 lang: en
 es_link: /2023/05/13/Hola
 fr_link: /2023/05/13/Bonjour

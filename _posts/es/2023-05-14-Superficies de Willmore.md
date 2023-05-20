@@ -2,6 +2,7 @@
 layout: post
 title:  "Superficies de Willmore"
 date:   2023-05-14
+author: Jose Antonio Lorencio Abril
 permalink: /posts/es/willmore-surfaces
 categories: Mathematics
 usemathjax: true

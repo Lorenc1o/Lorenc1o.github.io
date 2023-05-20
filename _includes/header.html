@@ -64,11 +64,20 @@
       {%- endif -%}  
 
       {%- if page.toc -%}
-      <nav class="toc-nav">
+      <nav class="toc-nav" id="toc-nav">
         <h3>Table of Contents</h3>
         <ul>
           {%- for toc_item in page.toc -%}
-            <li><a href="{{toc_item.url}}">{{ toc_item.title | escape }}</a></li>
+            <li class="section">
+              <a href="{{toc_item.url}}">{{ toc_item.title | escape }}</a>
+              {%- if toc_item.subsections -%}
+                <ul class="subsections" style="display: none;">
+                  {%- for subsection in toc_item.subsections -%}
+                    <li><a href="{{subsection.url}}">{{ subsection.title | escape }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            </li>
           {%- endfor -%}
         </ul>
       </nav>
