@@ -45,7 +45,7 @@
 /* Mobile styles */
 @media (max-width: 767px) {
   .toc-nav {
-    position: relative;
+    position: fixed;
     width: 100%;
     clear: both;
     z-index: 1;
