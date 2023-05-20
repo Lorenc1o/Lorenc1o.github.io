@@ -95,7 +95,7 @@ Unfortunately, this equation does not have a closed-form solution, so we have to
 
 ### Gradient descent {#gradient}
 
-Gradient descent is a general numerical method to find local minima of a differentiable function F (Z). The
+Gradient descent is a general numerical method to find local minima of a differentiable function \\(F(W)\\). The
 idea is to use the fact that the gradient of a vector function points in the direction of maximum growth, and
 the negative gradient points in the direction of maximum decrease. Therefore, if we ’follow’ this direction, we
 should approach a minimum of the function, although it might not be the global minimum.
