@@ -74,6 +74,8 @@ A visual representation of this function can be seen in the following figure:
 
 <img src="/assets/images/perceptron/perceptron.png" alt="Diagram of a perceptron" width="400" class="centered-image"/>
 
+As we can see, the inputs are multiplied by the weights, and then added to the bias. If the result is greater than zero, the neuron fires, otherwise it doesn't. Note that this is equivalent to a linear classifier, which separates the input space into two regions, one for each class. This is because the function is linear in the input, and therefore the decision boundary is a hyperplane.
+
 ## Finding weights and bias {#weights}
 
 Now, how on Earth do we know the values of \\(w\\) and \\(b\\)? Well, this is the tricky part. We can't just ask the neuron what are the values of \\(w\\) and \\(b\\), because it doesn't know. We have to find them ourselves. This is done by training the neuron. The idea is to give the neuron some inputs for which we know what the output should be, and then adjust the values of \\(w\\) and \\(b\\) so that the output of the neuron is the expected one. This is done by using a loss function, which measures how far the output of the neuron is from the expected output. The loss function is usually defined as the squared error between the expected output and the actual output, that is

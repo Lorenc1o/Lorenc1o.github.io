@@ -78,6 +78,8 @@ Una representación visual de esta función se puede ver en la siguiente figura:
 
 <img src="/assets/images/perceptron/perceptron.png" alt="Diagram of a perceptron" width="400" class="centered-image"/>
 
+Como podemos ver, los inputs se multiplican por los pesos, y luego se suman al sesgo. Si el resultado es mayor que cero, la neurona dispara, de lo contrario no lo hace. Hay que tener en cuenta que esto es equivalente a un clasificador lineal, que separa el espacio de entrada en dos regiones, una para cada clase. Esto se debe a que la función es lineal en la entrada, y por lo tanto la frontera de decisión es un hiperplano.
+
 ## Encontrando los pesos y el umbral {#weights}
 
 Ahora bien, ¿cómo sabemos los valores de \\(w\\) y \\(b\\)? Bueno, esta es la parte complicada. No podemos simplemente preguntarle a la neurona cuáles son los valores de \\(w\\) y \\(b\\), porque no lo sabe. Tenemos que encontrarlos nosotros mismos. Esto se hace entrenando la neurona. La idea es darle a la neurona algunas entradas para las que sabemos cuál debería ser la salida, y luego ajustar los valores de \\(w\\) y \\(b\\) para que la salida de la neurona sea la esperada. Esto se hace utilizando una función de pérdida, que mide qué tan lejos está la salida de la neurona de la salida esperada. La función de pérdida generalmente se define como el error cuadrático entre la salida esperada y la salida real, es decir,
