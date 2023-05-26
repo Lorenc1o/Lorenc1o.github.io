@@ -312,7 +312,7 @@ and $$z^{\left(out\right)}=z=g_{out}\left[a^{\left(out\right)}\right]$$:
 
 <img src="/assets/images/nn/backprop_7.png" alt="Backpropagation example backward pass step 2" width="600" class="centered-image"/>
 
-And that's it! Now we can use the gradient at each layer to train the network, updating the weights in layer $l$ according to:
+And that's it! Now we can use the gradient at each layer to train the network, updating the weights in layer $$l$$ according to:
 \\[
 W^{\left(l\right)}=W^{\left(l\right)}-\gamma\cdot grad^{\left(l\right)},
 \\]
