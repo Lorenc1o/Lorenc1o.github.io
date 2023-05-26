@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural networks
+title: Redes neuronales
 date: 2023-05-26
 categories: [Machine Learning]
 author: Jose Antonio Lorencio Abril
