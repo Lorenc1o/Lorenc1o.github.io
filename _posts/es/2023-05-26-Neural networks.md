@@ -4,7 +4,7 @@ title: Neural networks
 date: 2023-05-26
 categories: [Machine Learning]
 author: Jose Antonio Lorencio Abril
-permalink: /posts/en/neural-networks/
+permalink: /posts/es/neural-networks/
 usemathjax: true
 lang: es
 en_link: /posts/en/neural-networks/
