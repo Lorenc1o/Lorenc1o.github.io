@@ -13,7 +13,9 @@ Here you can find all my posts grouped by categories.
   <h2>{{ category[0] }}</h2>
   <ul>
     {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% if post.lang == page.lang %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endfor %}
