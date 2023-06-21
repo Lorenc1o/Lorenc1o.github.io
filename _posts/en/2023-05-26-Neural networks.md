@@ -52,7 +52,7 @@ For this, we will first see how we can use perceptrons to obtain multivariate ou
 
 We saw how to use a single perceptron to perform binary classification, and there is a very natural way to extend this model to multi-class classification, using a one-hot encoding for the class.
 
-For instance, let's work with a dataset \\(\mathcal{D}=\left\\{ x,y\right\\} \\), where \\(x\in\mathbb{R}^{d}\\) and \\(y\in L=\left\\{ l_{1},...,l_{K}\right\\} \\). We now encode $y$ as a one-hot vector, i.e., \\[y_{k}=\begin{cases} 0 & if\ y\neq l_{k}\\\\ 1 & if\ y=l_{k} \end{cases},\\] for \\(k=1,...,K\\). The idea is then to use \\(K\\) perceptrons, each of them focusing on predicting one of the classes and trained independently.
+For instance, let's work with a dataset \\(\mathcal{D}=\left\\{ x,y\right\\} \\), where \\(x\in\mathbb{R}^{d}\\) and \\(y\in L=\left\\{ l_{1},...,l_{K}\right\\} \\). We now encode \\(y\\) as a one-hot vector, i.e., \\[y_{k}=\begin{cases} 0 & if\ y\neq l_{k}\\\\ 1 & if\ y=l_{k} \end{cases},\\] for \\(k=1,...,K\\). The idea is then to use \\(K\\) perceptrons, each of them focusing on predicting one of the classes and trained independently.
 The idea is depicted in this figure:
 <img src="/assets/images/nn/mlp_1.png" alt="Multi-class classification with perceptrons." width="400" class="centered-image"/>
 Notice that in this case it is almost compulsory to use the logistic function (or a similar function, but definitely not the step function), since this way we can interpret the values as probabilities, and therefore select the value with highest probability as our prediction. Also, remember than in \\(x\\) we are adding an artificial 1 to account for the bias.
@@ -95,7 +95,7 @@ Note, nonetheless, that here we are obtaining a bunch of different probabilities
 The softmax function is
 
 $$
-    softmax\left(y\right)_{k}=\frac{e^{z_{k}}}{\sum_{k'}e^{z_{k'}}}.
+    y_k = softmax\left(z\right)_{k}=\frac{e^{z_{k}}}{\sum_{k'}e^{z_{k'}}}.
 $$
 
 Also, when doing this, it is not necessary to apply the activation function, \\(g\\), beforehand. This approach is shown here:
