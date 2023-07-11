@@ -190,7 +190,27 @@ Now that we know the different kinds of flight rules under which a flight can fl
 - **Class A airspace**: only IFR flights are allowed to fly in that chunk, and the controllers will make sure that they are all safely separated.
 - **Class B airspace**: both IFR and VFR flights are allowed into the airspace chunk, and they will all be separated from each other by ATC.
 - **Class E airspace**: both IFR and VFR flights are allowed into the airspace chunk, but only IFR flights will be separated from other IFR flights by ATC, while VFR flights must keep themselves separated from the rest of the flights. ATC will only tell IFR flights about VFR when they are near to them.
-- **Uncontrolled airspace**: in the uncontrolled airspace, aircrafts are allowed to fly VFR and IFR, but it is the responsibility of the flight crew to ensure their separation from other aircrafts. The Air Traffic Services does not (of course!) completely ignore them, and pilots are provided by information that might be useful for their safety, such as weather information, traffic in their surroundings that may interfere with them, or conditions at the airport in which they plan to land.
+- **Uncontrolled airspace (Class G)**: in the uncontrolled airspace, aircrafts are allowed to fly VFR and IFR, but it is the responsibility of the flight crew to ensure their separation from other aircrafts. The Air Traffic Services does not (of course!) completely ignore them, and pilots are provided by information that might be useful for their safety, such as weather information, traffic in their surroundings that may interfere with them, or conditions at the airport in which they plan to land.
+
+The following table[^6] summarizes the different airspace classes:
+
+| Class | Type of Flight | Separation Provided | Service Provided |
+|-------|----------------|---------------------|------------------|
+| A | IFR only | All aircraft | Air traffic control service |
+| B | IFR | All aircraft | Air traffic control service |
+|  | VFR | All aircraft | Air traffic control service |
+| C | IFR | IFR from IFR, IFR from VFR | Air traffic control service |
+|  | VFR | VFR from IFR | 1) Air traffic control service for separation from IFR 2) VFR/VFR traffic information service (and traffic avoidance advice on request) |
+| D | IFR | IFR from IFR | Air traffic control service, traffic information about VFR flights (and traffic avoidance advice on request) |
+|  | VFR | Nil | IFR/VFR and VFR/VFR traffic information (and traffic avoidance advice on request) |
+| E | IFR | IFR from IFR | Air traffic control service and, as far as practical traffic information about VFR flights |
+|  | VFR | Nil | Traffic information as far as practical |
+| F | IFR | IFR from IFR as far as practical | Air traffic advisory service; flight information service |
+|  | VFR | Nil | Flight information service |
+| G | IFR | Nil | Flight information service |
+|  | VFR | Nil | Flight information service |
+
+
 
 ## References {#references}
 
@@ -203,3 +223,5 @@ Now that we know the different kinds of flight rules under which a flight can fl
 [^4]: <a id="ref4"></a> Commuter Aircraft Image: [source](https://www.google.com/imgres?imgurl=https://images.theconversation.com/files/484951/original/file-20220915-37168-hs6bel.jpg%3Fixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip&tbnid=zCpsT639CmoG8M&vet=12ahUKEwjK-ujPqYaAAxUKkicCHehbAXwQMygDegUIARDFAQ..i&imgrefurl=https://theconversation.com/electric-planes-are-coming-short-hop-regional-flights-could-be-running-on-batteries-in-a-few-years-190098&docid=5jPsE1lN_vKsnM&w=754&h=424&q=short hop commuter aircraft&ved=2ahUKEwjK-ujPqYaAAxUKkicCHehbAXwQMygDegUIARDFAQ) 
 
 [^5]: Visit [Airspace in Wikipedia](https://en.wikipedia.org/wiki/Airspace).
+
+[^6]: Table adapted from [this blog in SkyBrary](https://skybrary.aero/articles/classification-airspace)
