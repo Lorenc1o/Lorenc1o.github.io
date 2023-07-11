@@ -28,6 +28,16 @@ toc:
                 title: Control Services
                 url: '#control-services'
     -
+        title: How does ATC work?
+        url: '#how-atc-works'
+    -
+        title: Types of ATC
+        url: '#types-of-atc'
+        subsections:
+            -
+                title: Aerodrome Control
+                url: '#aerodrome-control'
+    -
         title: Conclusion
         url: '#conclusion'         
     -
@@ -210,7 +220,35 @@ The following table[^6] summarizes the different airspace classes:
 | G | IFR | Nil | Flight information service |
 |  | VFR | Nil | Flight information service |
 
+## How does ATC work? {#how-atc-works}
 
+We have seen how that the airspace is divided into chunks, that are classified and somehow ensemble into a structure that is called the **Air Traffic Services route network**. We have also seen that the ATC provides different services depending on the airspace class. In addition to this structure, there are several systems that ATC needs to use to provide the services to the aircrafts. These systems are:
+
+- Navigational systems
+- Surveillance systems
+- Communication systems
+
+In addition, there are several rules that ATC must follow to ensure the safety of the flights, and the basic rules are defined in the **International Civil Aviation Organization (ICAO)** with international agreements. These rules define things like the minimum separation between aircrafts, the minimum altitude that an aircraft must fly at, and the minimum visibility that must be present for a flight to take place, among others.
+
+Nonetheless, all this does not explain how ATC works. To understand this, we need to know the different types of activities that ATC does:
+
+1. Controllers need to know in advance all the information regarding the flights that they want to control: source and destination, route, type of aircraft, etc. For this, pilots or the airlines operators must file a **flight plan**. This flight plan is sent to all the ATC units that will be involved in the flight, and it is used to coordinate the flights between the different ATC units. The flight plan is also used to coordinate the flights with the airports, so that the airport knows when to expect the flight, and the ATC knows when the flight will be arriving to the airport.
+
+2. Controllers must monitor the progress of the flights that they are controlling in real time. If the controller is in a tower, this activity is done by keeping visual contact with the aircrafts. At busier airports, this can be supported by a **ground movement radar**. 
+Monitoring of airborne aircrafts is done by using a **radar** or other types of surveillance systems. The radar is used to determine the position of the aircraft, and the controller can use this information to ensure that the aircrafts are separated from each other. The radar can also be used to provide information to the pilots about the weather conditions in their surroundings. 
+In some parts of the world, the radar is not available, and the controllers must rely on the information provided by the pilots, puting this information in a **flight progress strip**. This strip is a piece of paper that contains all the information about the flight, and it is used to keep track of the flight progress.
+
+3. Controllers have to use the information about where the aircraft is and where it intends to go, in order to work out if it will come into conflict with any other aircraft.
+
+4. Controllers issue clearances and instructions to pilots to ensure that the aircrafts are separated from each other. These clearances and instructions are sent to the pilots via the **communication systems**. For this activity, it is necessary that pilots and controllers remain in two-way communication, so that the pilots can ask for clarification if they do not understand the instructions, or if they need to change the instructions. This is primarily achieved by using **radio communication**. 
+
+5. Controllers must coordinate with other ATC units to ensure that the aircrafts are safely transferred from one unit to the next. This is done by using the flight plan, and by using the communication systems.
+
+## Types of ATC {#types-atc}
+
+There are different types of ATC, and the type of ATC that is used depends on the type of airspace and the type of flight. We are going to see the different types of ATC, and the services that they provide.
+
+### Aerodrome Control {#aerodrome-control}
 
 ## References {#references}
 
