@@ -37,6 +37,12 @@ toc:
             -
                 title: Aerodrome Control
                 url: '#aerodrome-control'
+            -
+                title: Approach Control
+                url: '#approach-control'
+            -
+                title: Area Control
+                url: '#area-control'
     -
         title: Conclusion
         url: '#conclusion'         
@@ -244,7 +250,7 @@ In some parts of the world, the radar is not available, and the controllers must
 
 5. Controllers must coordinate with other ATC units to ensure that the aircrafts are safely transferred from one unit to the next. This is done by using the flight plan, and by using the communication systems.
 
-## Types of ATC {#types-atc}
+## Types of ATC {#types-of-atc}
 
 There are different types of ATC, and the type of ATC that is used depends on the type of airspace and the type of flight. We are going to see the different types of ATC, and the services that they provide.
 
@@ -282,6 +288,66 @@ Those controllers that control aircrafts flying en route along airways or betwee
 They can also be classified as **area procedural controllers** or **area surveillance controllers**. 
 
 As the traffic demand has increased, large air spaces are divided into smaller sectors, and each sector is controlled by one controller. The divisions might be vertical, horizontal, or both. **Error controllers** have a broad view of the air traffic and they can predict when a conflict might occur with 10-20 minutes of anticipation. They can then take action to prevent the conflict from happening. For example, they can instruct an aircraft to climb or descend, or to change its speed. **Oceanic controllers** provide control services to aircrafts that are flying over the ocean, where there is limited communication, minimal surveillance and no ground-based navigation aids. They use a combination of surveillance and procedural control.
+
+### Flight Information Service {#flight-information-service}
+
+The **Flight Information Service** is a service that provides information and advice useful for the safe and efficient conduct of flights. It is provided by air controllers. They provide information about the weather, the state of the aerodrome, the condition of the runways, the traffic in the vicinity of the aerodrome, and any other information that might be useful for the pilots. In controlled areas, controllers provide both ATC and FIS services. In uncontrolled areas, they only provide FIS services.
+
+### Advisory Service {#advisory-service}
+
+The **Advisory Service** is a service which is somehow a lighter version of ATC. It is provided by air traffic controllers, and it is used to provide advice and information useful for the safe and efficient conduct of flights. The controllers give advice on what actions the pilots should take, but the pilots are not obliged to follow the advice. 
+
+### Alerting Service {#alerting-service}
+
+The **Alerting Service** is a service that is provided by air traffic controllers, and that is used to notify appropriate organizations regarding aircrafts that are in need of search and rescue aid, and to assist such organizations as required. The controllers are responsible for notifying the appropriate organizations when an aircraft is overdue, or when it is known or believed to be in a state of emergency. They are also responsible for notifying the appropriate organizations when an aircraft is known or believed to be lost, or when it is known or believed to have been involved in an accident.
+
+There are three types of alerts:
+- **INCERFA**: This alert is used when an aircraft is overdue, or when it is known or believed to be in a state of emergency. The controller will notify the appropriate organizations, and will provide them with all the information that is available. Usually, the aircraft is just now reporting to a different ATC unit and the alert is cancelled.
+- **ALERFA**: When an aircraft is not found after a certain amount of time, the INCERFA alert is upgraded to an ALERFA alert. The controller will notify the appropriate organizations, and will provide them with all the information that is available. 
+- **DETRESFA**: When an aircraft is not found after a certain amount of time or information is received that indicates that the aircraft is in distress, the ALERFA alert is upgraded to a DETRESFA alert. The controller will notify the appropriate organizations, and will provide them with all the information that is available.
+
+## Airspace Management {#airspace-management}
+
+There are many different types of airspace users, like commercial airlines, business jets, cargo operators, private pilots, and others including balloons, drones, and sport para-dropping. All these users need to have a safe place to do their activities. Airspace management is about making sure everyone can use the airspace safely.
+
+There is also the military, which is another major airspace user. In the past, the military had their own airspace that civilians couldn't fly in. This meant that civilian aircraft had to take long detours around the military airspace, even when there was nobody using it. But now things have changed. The military allows civilians to use their airspace when they are not using it themselves. This is called flexible use of airspace.
+
+The **Flexible Use of Airspace (FUA)** considers airspace a single continuum, and it allows the airspace to be used by both civil and military users. FUA is based on user's requirements and adaptable airspace structures and procedures, suited to temporary allocation and utilisation. It realies on **National Airspace Management Cells (NAMCs)**, which are responsible for the management of the airspace in their country. They are responsible for the coordination of the use of airspace, and for the allocation of airspace to civil and military users. They are also responsible for the coordination of the use of airspace with other countries. Advanced FUA will further enhance both FUA operations and network performance by introducing new airspace design principles, real-time information sharing, common situational awareness, and collaborative decision making, as well as interoperability between civil and military systems.
+
+## Air Traffic Flow Management {#air-traffic-flow-management}
+
+The objectives of ATFM are to:
+
+- Protect ATC from over-delivery of traffic.
+- Optimize the utilization of the available capacity of the ATC system.
+
+Here, **capacity** is the number of flights that can be handled safely and efficiently in a sector during a given time period, while the **demand** is the number of flights that intend to fly in a sector during a given time period. Therefore, ATFM is about making sure that the demand doesn't exceed the capacity. If the demand exceeds the capacity, then the ATC system will be overloaded, and this will lead to delays and congestion.
+
+Air Traffic Flow Management is done in three phases:
+
+1. Strategic planning: This happens months ahead of time. It involves things like scheduling flights, changing flight paths to avoid crowded areas, and predicting where and when problems might occur.
+
+2. Pre-tactical planning: This is done a few days before the actual operation. It's like fine-tuning the original plan and deciding what specific actions will be taken on the day of operation.
+
+3. Tactical operations: This takes place on the day of operation. Actions are adjusted in real-time based on the traffic situation. If needed, delays or restrictions are put in place to make sure the airspace doesn't get too crowded and all aircraft stay safe.
+
+## Flight Plan {#flight-plan}
+
+A **Flight Plan** is a document that contains information about a flight. It is used by air traffic controllers to provide air traffic services. It is also used by pilots to plan their flights. The flight plan contains information about the aircraft, the pilot, the route, the destination, and other information that is useful for the flight. The flight plan is filed by the pilot well before the flight. The format of the flight plans is defined by the International Civil Aviation Organization (ICAO). Flight Plans are usually compulsory for flights operating under IFR and for flights operating in controlled airspace. They can be optional for flights operating under VFR and for flights operating in uncontrolled airspace. If the flight crosses international borders, then the flight plan is compulsory in all cases, as well as if the flight crew wants the ATC to report them overdue if they don't arrive at their destination within a certain amount of time.
+
+## Global Challenges of Air Traffic Management {#global-challenges}
+
+Global air traffic has been growing rapidly, doubling in size roughly every 15 years since 1977. This growth continues despite economic downturns. As air traffic increases, air traffic management (ATM) faces several challenges:
+
+1. Safety: ATM prioritizes safety and has a strong safety record. However, with more diverse traffic and new users, extra efforts are needed to maintain safety standards.
+
+2. Efficiency/Capacity: The demand for air travel is exceeding the available capacity, leading to congestion and delays that slow down traffic flow.
+
+3. Cost Reduction and Economic Growth: There is pressure on ATM to reduce costs for airspace users. The challenge is to create a globally viable air traffic management system that considers the varying economic development levels worldwide, while promoting sustainable growth and improvements.
+
+4. Security: ATM systems rely on networks to share information, which improves efficiency and decision-making. However, sharing information also increases the risk to network security and the aviation community it serves. The challenge is to ensure an acceptable level of security while sharing networked information.
+
+5. Environment: Aviation currently contributes to adverse environmental effects. The global challenge for ATM is to minimize the negative impacts caused by civil aviation activities and work towards environmental sustainability.
 
 ## References {#references}
 
