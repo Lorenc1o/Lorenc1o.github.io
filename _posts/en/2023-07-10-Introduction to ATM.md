@@ -349,6 +349,26 @@ Global air traffic has been growing rapidly, doubling in size roughly every 15 y
 
 5. Environment: Aviation currently contributes to adverse environmental effects. The global challenge for ATM is to minimize the negative impacts caused by civil aviation activities and work towards environmental sustainability.
 
+## Functional Airspace Blocks {#functional-airspace-blocks}
+
+One solution to many of the previously mentioned problems in Europe is being attacked using the concept of **functional airspace block (FAB)**[^7]. FABs are a key mechanism of the Single European Sky (SES) initiative, which aims to reorganize air traffic management (ATM) in the European Union (EU) in a more efficient and rational manner. FABs are established regardless of state boundaries and are designed to be performance-driven and optimized.
+
+The problem FABs aim to solve is the fragmentation of air traffic management in the EU. Currently, every time a plane enters the airspace of a Member State, it is serviced by a different air navigation service provider (ANSP) based on different rules and operational requirements. Each service provider procures tailored equipment and most maintain their own training schools and all other support functions. This fragmentation impacts safety, limits capacity, and adds to cost.
+
+FABs are important because they are designed to improve capacity and efficiency, enhance safety, and lower costs for air navigation services through enhanced cooperation and integration across borders. They are expected to change the landscape of ATM service provision and provide an invaluable tool for ANSPs in reaching binding performance targets. They also facilitate civil-military coordination in airspace and air traffic management.
+
+FABs are also a tool to develop a Single European Sky. They are vital for reducing airspace fragmentation and are necessary to accommodate the steadily growing traffic, as well as to minimize delays by managing the traffic more dynamically. Objectives for enhancing current safety standards and overall efficiency can best be achieved by increasing the scale of operations, regardless of national borders.
+
+As of the time of the article, all nine FABs have been declared, established, and notified to the European Commission. However, the implementation is still far too slow for almost all FABs. Delays in delivering operational FABs are holding back the implementation to a significant degree, which in turn generates inefficiencies in the entire European air traffic management system. This results in extra costs of close to € 5 billion a year which are passed on to airlines and their customers in addition to increased journey times, delays, and emissions.
+
+## Conclusion {#conclusion}
+
+In this post, we have explored the world of Air Traffic Management, focusing on Air Traffic Control. We have seen how the airspace is divided into controlled and uncontrolled zones, and how the different controlled zones are classified based on the type of traffic they handle. We have also seen how the Air Traffic Control system works, and how the different types of controllers work together to ensure the safety of the aircraft and the passengers. Finally, we have seen how Air Traffic Flow Management is done, and how it is used to make sure that the demand doesn't exceed the capacity of the ATC system.
+
+Moreover, we have addressed the global challenges of Air Traffic Management, and how the concept of Functional Airspace Blocks is being used to solve some of these problems in Europe.
+
+I hope you have enjoyed this post and that you have learned something new. If you have any questions or comments, feel free to reach out to me. I would love to hear from you!
+
 ## References {#references}
 
 [^1]: I will start this journey via the free courses delivered by [Eurocontrol Learning Zone](https://learningzone.eurocontrol.int/ilp/pages/internal-dashboard.jsf?menuId=1107&locale=en-GB#/?dashboardId=7).
@@ -362,3 +382,5 @@ Global air traffic has been growing rapidly, doubling in size roughly every 15 y
 [^5]: Visit [Airspace in Wikipedia](https://en.wikipedia.org/wiki/Airspace).
 
 [^6]: Table adapted from [this blog in SkyBrary](https://skybrary.aero/articles/classification-airspace)
+
+[^7]: See the Eurocontrol post about [Functional Airspace Blocks](https://transport.ec.europa.eu/transport-modes/air/single-european-sky/functional-airspace-blocks-fabs_en)
