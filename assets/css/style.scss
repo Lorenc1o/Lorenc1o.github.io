@@ -42,24 +42,6 @@
   
 }
 
-/* Mobile styles */
-@media (max-width: 767px) {
-  .toc-nav {
-    position: relative;
-    width: 100%;
-    clear: both;
-    z-index: 1;
-  }
-
-  .toc-nav ul {
-    display: none;
-  }
-
-  .toc-nav.active ul {
-    display: block;
-  }
-}
-
 .project-title {
   cursor: pointer;
   padding: 10px;
@@ -82,4 +64,22 @@
   padding: 15px;
   border-left: 3px solid #ddd; /* Slight left border */
   transition: max-height 0.2s ease-out; /* Optional: for accordion effect */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .toc-nav {
+    position: relative;
+    width: 100%;
+    clear: both;
+    z-index: 1;
+  }
+
+  .toc-nav ul {
+    display: none;
+  }
+
+  .toc-nav.active ul {
+    display: block;
+  }
 }
