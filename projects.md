@@ -5,6 +5,9 @@ permalink: /projects/
 lang: en
 toc:
     -
+        title: Transformers Model: State of the Art
+        url: '#transformers'
+    -
         title: EMJMD BDMA
         url: '#bdma'
     -
@@ -18,6 +21,12 @@ toc:
         url: '#mathcs'
 ---
 Here is a list of some of my projects. For more details, visit the linked pages.
+
+# Transformers Model: State of the Art {#transformers}
+
+For our course, Big Data Seminars, we had to conduct a literature review on a topic related to Big Data. My partner, [Luis A. León](https://github.com/Action52), and I decided to conduct a literature review on the Transformers model, which is a state of the art model in Natural Language Processing.
+
+For a detailed information, visit the [dedicated page](https://Lorenc1o.github.io/transformer_models_SoE/). There, you will find the report, the poster and a Jupyter notebook demoing the use of pre-trained models for text classification.
 
 # Erasmus Mundus Joint Master's Degree in Big Data Management and Analytics (EMJMD BDMA) {#bdma}
 
