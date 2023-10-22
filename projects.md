@@ -5,7 +5,7 @@ permalink: /projects/
 lang: en
 toc:
     -
-        title: Transformers Model: State of the Art
+        title: 'Transformers Model: State of the Art'
         url: '#transformers'
     -
         title: EMJMD BDMA
