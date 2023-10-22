@@ -46,6 +46,28 @@
         document.querySelector('.toc-nav').classList.toggle('active');
       });
     </script>
+
+    <script>
+      function toggleProject(projectId) {
+          // Get the content element based on the provided ID
+          var content = document.getElementById(projectId);
+
+          // Hide all other project contents
+          var allContents = document.getElementsByClassName('project-content');
+          for (var i = 0; i < allContents.length; i++) {
+              if (allContents[i] !== content) {
+                  allContents[i].style.display = 'none';
+              }
+          }
+
+          // Toggle the clicked project content's visibility
+          if (content.style.display === 'block') {
+              content.style.display = 'none';
+          } else {
+              content.style.display = 'block';
+          }
+      }
+    </script>
       
   </body>
 

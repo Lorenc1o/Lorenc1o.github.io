@@ -59,3 +59,27 @@
     display: block;
   }
 }
+
+.project-title {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd; /* Make borders less pronounced */
+  border-radius: 5px; /* Rounded borders */
+  margin: 5px 0; /* Space between titles */
+  background-color: #AEDFF7; /* Light grey background */
+  color: black; /* White text color */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.project-title:hover, .project-title.active {
+  background-color: #003366; /* Darker grey on hover/active */
+  color: white; /* White text color */
+}
+
+.project-content {
+  display: none; /* Content starts out hidden */
+  margin: 15px 0;
+  padding: 15px;
+  border-left: 3px solid #ddd; /* Slight left border */
+  transition: max-height 0.2s ease-out; /* Optional: for accordion effect */
+}
