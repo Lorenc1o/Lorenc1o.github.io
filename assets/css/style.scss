@@ -47,14 +47,14 @@
   padding: 10px;
   border: 1px solid #ddd; /* Make borders less pronounced */
   border-radius: 5px; /* Rounded borders */
-  margin: 5px 0; /* Space between titles */
-  background-color: #AEDFF7; /* Light grey background */
+  margin: 5px 30px; /* Space between titles */
+  background-color: #fff9e5; /* Light grey background */
   color: black; /* White text color */
   transition: background-color 0.3s; /* Smooth transition */
 }
 
 .project-title:hover, .project-title.active {
-  background-color: #003366; /* Darker grey on hover/active */
+  background-color: #d0ac27; /* Darker grey on hover/active */
   color: white; /* White text color */
 }
 
@@ -68,12 +68,12 @@
 
 .category-title {
   font-size: 1.5em; /* Larger font size */
-  color: #d0ac27; /* Dark text color for contrast */
-  background-color: #fff9e5; /* Slightly different background color */
+  color: #af8a01; /* Dark text color for contrast */
+  background-color: #fff; /* Slightly different background color */
   padding: 10px 15px; /* Some padding around the text */
   margin-top: 30px; /* Extra space above the category title */
   border-radius: 5px; /* Rounded borders */
-  border-left: 5px solid #d0ac27; /* A left border for definition */
+  /*border-left: 5px solid #ac3ab0; /* A left border for definition */
   margin-bottom: 10px; /* Space before the project titles start */
 }
 
