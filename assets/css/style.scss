@@ -66,6 +66,17 @@
   transition: max-height 0.2s ease-out; /* Optional: for accordion effect */
 }
 
+.category-title {
+  font-size: 1.5em; /* Larger font size */
+  color: #d0ac27; /* Dark text color for contrast */
+  background-color: #fff9e5; /* Slightly different background color */
+  padding: 10px 15px; /* Some padding around the text */
+  margin-top: 30px; /* Extra space above the category title */
+  border-radius: 5px; /* Rounded borders */
+  border-left: 5px solid #d0ac27; /* A left border for definition */
+  margin-bottom: 10px; /* Space before the project titles start */
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .toc-nav {

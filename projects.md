@@ -6,6 +6,7 @@ lang: en
 ---
 Here is a list of some of my projects. For more details, visit the linked pages.
 
+<div class="category-title">Research Projects</div>
 <div class="project-title" onclick="toggleProject('transformers-content')">
     Transformers Model: State of the Art
 </div>
@@ -16,13 +17,15 @@ Here is a list of some of my projects. For more details, visit the linked pages.
     For a detailed information, visit the <a href="https://Lorenc1o.github.io/transformer_models_SoE/">dedicated page</a>. There, you will find the report, the poster and a Jupyter notebook demoing the use of pre-trained models for text classification.
 </div>
 
-<div class="project-title" onclick="toggleProject('bdma-content')">
-    Erasmus Mundus Joint Master's Degree in Big Data Management and Analytics (EMJMD BDMA)
-</div>
-<div id="bdma-content" class="project-content">
-    I was granted an Erasmus Mundus Joint Master's Degree scholarship by the European Commission to study the Big Data Management and Analytics Master's Degree, coordinated by the <a href="https://www.ulb.be/">Université Libre de Bruxelles</a>. <br><br>
+<div class="category-title">Applied Projects</div>
 
-    The different course notes and projects that I have developed can be found in the dedicated page to the <a href="https://Lorenc1o.github.io/BDMA_Notes">BDMA notes</a>.
+<div class="project-title" onclick="toggleProject('AI-social-network')">
+    BWave: an AI-powered social network
+</div>
+<div id="AI-social-network" class="project-content">
+    For our second semester of the BDMA Master's Degree, we had to develop a joint project for several courses.
+    It consisted on thinking about a data-related startup, and creating a proof of concept for it. We decided to create a social network, BWave, that would use AI to recommend content to the users. <br><br>
+    If you want to knoe more about the project, visit the <a href="https://aliabusaleh.github.io/bdma-upc-bdm-bwave/index.html">dedicated page</a>.
 </div>
 
 <div class="project-title" onclick="toggleProject('garbage-content')">
@@ -51,6 +54,15 @@ Here is a list of some of my projects. For more details, visit the linked pages.
     To assess this idea, we used the data of the money supply of the US, the European Union and Switzerland. The results were very good as a preliminary assessment, but more data and more countries would be needed to make a more accurate assessment. The full report can be found <a href="https://github.com/Lorenc1o/Math_Info_UniversityNotes/blob/main/Mathematics/5th-year/Modelling_Lab/Analysis/Group_Assignment/LabMod___Analisis__G7.pdf">here</a>.
 </div>
 
+<div class="category-title">Education</div>
+<div class="project-title" onclick="toggleProject('bdma-content')">
+    Erasmus Mundus Joint Master's Degree in Big Data Management and Analytics (EMJMD BDMA)
+</div>
+<div id="bdma-content" class="project-content">
+    I was granted an Erasmus Mundus Joint Master's Degree scholarship by the European Commission to study the Big Data Management and Analytics Master's Degree, coordinated by the <a href="https://www.ulb.be/">Université Libre de Bruxelles</a>. <br><br>
+
+    The different course notes and projects that I have developed can be found in the dedicated page to the <a href="https://Lorenc1o.github.io/BDMA_Notes">BDMA notes</a>.
+</div>
 <div class="project-title" onclick="toggleProject('mathcs-content')">
     Double Bachelor's Degree in Mathematics and Computer Science
 </div>
