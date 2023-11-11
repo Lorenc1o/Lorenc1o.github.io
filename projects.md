@@ -8,17 +8,16 @@ Here is a list of some of my projects. For more details, visit the linked pages.
 
 <div class="category-title">Research Projects</div>
 <div class="project-title" onclick="toggleProject('transformers-content')">
-    Transformers Model: State of the Art
+    Transformer Models: State of the Art
 </div>
 <div id="transformers-content" class="project-content">
-    For our course, Big Data Seminars, we had to conduct a literature review on a topic related to Big Data. My partner, <a href="https://github.com/Action52">Luis A. León</a>, and I decided to conduct a literature review on the Transformers model, which is a state of the art model in Natural Language Processing. 
-    <br><br>
+    For our course, Big Data Seminars, we had to conduct a literature review on a topic related to Big Data. My partner, <a href="https://github.com/Action52">Luis A. León</a>, and I decided to conduct a literature review on the Transformer models, which are behind the state-of-art models in Natural Language Processing and more generally, sequence modelling. <br><br>
 
     For a detailed information, visit the <a href="https://Lorenc1o.github.io/transformer_models_SoE/">dedicated page</a>. There, you will find the report, the poster and a Jupyter notebook demoing the use of pre-trained models for text classification.
 </div>
 
 <div class="project-title" onclick="toggleProject('FEM')">
-    A Finite Element Model to Study the Deformations of the Mammary Tissues
+    <b>BSc Thesis</b>: A Finite Element Model to Study the Deformations of the Mammary Tissues
 </div>
 <div id="FEM" class="project-content">
     To complete my Bachelor's Degree in Computer Science and Engineering, I had to conduct a Bachelor's Thesis. I decided to conduct it in the field of Computational Models for Medicine, and I developed a Finite Element Model and C++ module to study the deformations of the mammary tissues. <br><br>
@@ -29,7 +28,7 @@ Here is a list of some of my projects. For more details, visit the linked pages.
 </div>
 
 <div class="project-title" onclick="toggleProject('Willmore')">
-    Willmore Surfaces in the Euclidean Space
+   <b>BSc Thesis</b>: Willmore Surfaces in the Euclidean Space
 </div>
 <div id="Willmore" class="project-content">
     To complete my Bachelor's Degree in Mathematics, I had to conduct a Bachelor's Thesis. I decided to conduct it in the field of Differential Geometry, and more concretely, I studied Willmore surfaces in the Euclidean space. <br><br>
