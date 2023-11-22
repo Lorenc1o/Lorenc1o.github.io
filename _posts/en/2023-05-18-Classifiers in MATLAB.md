@@ -3,6 +3,7 @@ layout: post
 title: "Classifiers in MATLAB"
 date: 2023-05-18
 author: Jose Antonio Lorencio Abril
+image: /assets/images/classifiers_matlab/title.png
 lang: en
 categories: [Machine Learning, MATLAB]
 toc:

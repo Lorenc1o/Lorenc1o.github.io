@@ -2,6 +2,7 @@
 layout: post
 title: Neural networks
 date: 2023-05-26
+image: /assets/images/nn/title.png
 categories: [Machine Learning]
 author: Jose Antonio Lorencio Abril
 permalink: /posts/en/neural-networks/

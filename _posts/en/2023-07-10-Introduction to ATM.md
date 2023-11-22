@@ -1,6 +1,7 @@
 ---
 title: "Part I: Introduction to Air Traffic Management (ATM)"
 date: 2023-07-10
+image: /assets/images/ATM/title.png
 categories: [ATC]
 author: Jose Antonio Lorencio Abril
 permalink: /posts/en/introduction-to-atm/

@@ -3,6 +3,7 @@ layout: post
 title:  "Bienvenu à mon blog"
 date:   2023-05-13
 author: Jose Antonio Lorencio Abril
+image: /assets/images/me/title.png
 lang: fr
 en_link: /2023/05/13/Hello
 es_link: /2023/05/13/Hola

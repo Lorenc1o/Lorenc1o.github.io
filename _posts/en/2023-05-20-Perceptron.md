@@ -3,6 +3,7 @@ layout: post
 title: "Perceptron: The prelude of the neural networks"
 date: 2023-05-20 00:00:00 -0000
 author: Jose Antonio Lorencio Abril
+image: /assets/images/perceptron/title.png
 categories: [Machine Learning, MATLAB]
 permalink: /posts/en/Perceptron
 usemathjax: true

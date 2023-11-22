@@ -1,6 +1,7 @@
 ---
 title: Implementing Neural Networks in MATLAB
 date: 2023-05-28
+image: /assets/images/nn/matlab/title.png
 categories: [Machine Learning, MATLAB]
 author: Jose Antonio Lorencio Abril
 permalink: /posts/en/neural-networks-matlab/

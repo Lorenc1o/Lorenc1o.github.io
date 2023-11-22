@@ -14,9 +14,18 @@ Here are my blog posts:
 
 {% for group in grouped_posts %}
 ## {{ group.name }}
-{% for post in group.items %}
-  {% if post.lang == page.lang %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-  {% endif %}
-{% endfor %}
+<div class="posts-container">
+  {% for post in group.items %}
+    {% if post.lang == page.lang %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        <div class="post-image">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </div>
+        <div class="post-title">
+          {{ post.title }}
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
 {% endfor %}

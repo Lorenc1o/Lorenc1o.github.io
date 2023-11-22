@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Perceptron: preludio de las redes neuronales"
+image: /assets/images/perceptron/title.png
 date: 2023-05-20 00:00:00 -0000
 author: Jose Antonio Lorencio Abril
 categories: [Machine Learning, MATLAB]

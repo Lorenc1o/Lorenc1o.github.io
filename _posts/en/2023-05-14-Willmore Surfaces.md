@@ -4,6 +4,7 @@ title:  "Willmore Surfaces"
 permalink: /posts/en/willmore-surfaces
 date:   2023-05-14
 author: Jose Antonio Lorencio Abril
+image: /assets/images/willmore/title.png
 categories: Mathematics
 usemathjax: true
 toc:

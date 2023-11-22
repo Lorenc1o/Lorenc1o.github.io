@@ -94,3 +94,48 @@
     display: block;
   }
 }
+
+.posts-container {
+  display: block; /* Keeps the single column layout */
+}
+
+.post-card {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns items vertically in the center */
+  margin-bottom: 10px;
+  background-color: #fff9e5;
+  border: 1px solid #ccc;
+  padding: 0px;
+  transition: box-shadow 0.3s ease;
+  text-decoration: none; /* Remove default link styling */
+  color: inherit;
+  width: 100%; /* Full width for each card */
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none; /* Prevents underlining on hover */
+}
+
+.post-image {
+  flex: 0 0 20%; /* Flex basis set to 20% and not allowed to grow or shrink */
+  max-width: 20%; /* Ensures image container doesn't exceed 20% of card's width */
+  display: flex; /* To ensure image centers in this container if smaller */
+  justify-content: center; /* Center image in the container */
+}
+
+.post-image img {
+  width: 100%; /* Image takes full width of its container */
+  height: auto;
+  max-width: 100%; /* Ensures image does not exceed its natural size */
+}
+
+.post-title {
+  margin: 5%;
+  font-size: 1.5em;
+  flex-grow: 1; /* Allows the title to take up the remaining space */
+  /*Center the title in the space left*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

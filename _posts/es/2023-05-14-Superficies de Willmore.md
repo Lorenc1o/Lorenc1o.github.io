@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Superficies de Willmore"
+image: /assets/images/willmore/title.png
 date:   2023-05-14
 author: Jose Antonio Lorencio Abril
 permalink: /posts/es/willmore-surfaces

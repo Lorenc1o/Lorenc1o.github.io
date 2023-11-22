@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redes neuronales
+image: /assets/images/nn/title.png
 date: 2023-05-26
 categories: [Machine Learning]
 author: Jose Antonio Lorencio Abril
