@@ -5,6 +5,11 @@ layout: base
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <!--Insert page.image-->
+    {%- if page.image -%}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" class="centered-image" width="50%">
+    {%- endif -%}
+    <br>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
