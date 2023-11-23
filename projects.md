@@ -36,7 +36,7 @@ Here is a list of some of my projects. For more details, visit the linked pages.
     In this project, I studied the properties of the Willmore functional, and proved different results using the differential geometry tools that are learnt in the Bachelor's Degree, with the objective of making this advanced topic accessible to undergraduate students. <br><br>
     I studied results such as the Conformal Invariance of the Willmore functional or the First Variation of the Willmore functional, and delved into how Willmore got to his conjecture by studying the functional in the space of generalized tori. <br><br>
     The project was conducted under the supervision of <a href="https://webs.um.es/ljalias/miwiki/doku.php">Luis J. Alías</a>, and the full report can be found <a href="https://lorenc1o.github.io/Math_Info_UniversityNotes/mathematics/tfg/TFG_WillmoreSurfaces.pdf">here</a> (it is in Spanish).<br><br>
-    The grade was 9.8/10 with honours (top 5% of the theses).
+    The grade was 9.7/10 with honours (top 5% of the theses).
 </div>
 
 <div class="category-title">Applied Projects</div>
@@ -47,7 +47,7 @@ Here is a list of some of my projects. For more details, visit the linked pages.
 <div id="AI-social-network" class="project-content">
     For our second semester of the BDMA Master's Degree, we had to develop a joint project for several courses.
     It consisted on thinking about a data-related startup, and creating a proof of concept for it. We decided to create a social network, BWave, that would use AI to recommend content to the users. <br><br>
-    If you want to knoe more about the project, visit the <a href="https://aliabusaleh.github.io/bdma-upc-bdm-bwave/index.html">dedicated page</a>.
+    If you want to know more about the project, visit the <a href="https://aliabusaleh.github.io/bdma-upc-bdm-bwave/index.html">dedicated page</a>.
 </div>
 
 <div class="project-title" onclick="toggleProject('garbage-content')">
