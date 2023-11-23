@@ -97,9 +97,9 @@ This paper is the first one to propose the idea of Federated Learning, with the 
 
 - McDonald et al.[^2] showed that it was possible to train a central perceptron by averaging the weights of several local perceptrons, each trained on a different subset of the data. Povey et al.[^3] applied this technique for NLP tasks. Zhang et al.[^4] proposed a similar approach for training deep neural networks, using 'soft' averaging of the weights. These approaches and other similar ones only consider a cluster of machines, with balanced and IID data.
 
-- Neverova et al.[^4] discussed the advantages of keeping user data inside their devices.
+- Neverova et al.[^5] discussed the advantages of keeping user data inside their devices.
 
-- Some previous work focused on how to efficiently perform distributed training under the assumption of convexity, a small number of clients and IID data. For example, the work of Balcan et al.[^6] and the work of Zhang et al.[^7].
+- Some previous work focused on how to efficiently perform distributed training under the assumption of convexity, a small number of clients and IID data. For example, the work of Balcan et al.[^6] and Zhang et al.[^7].
 
 - Dean et al.[^8] had proposed a way to perform asynchronous and distributed SGD, but it was too computationally expensive for the setup of this paper.
 
@@ -456,10 +456,10 @@ They set the basis for the field of Federated Learning, enabling for enhanced pr
 
 Since this paper was published, many other works have been published, improving the algorithm, and proposing new applications. For instance:
 
-- Adaptive Federated Learning[^8] enhances the algorithm by designing adaptive optimization methods in a federated setting, like Adam, Adagrad, etc.
-- Federated Learning with Differential Privacy[^9] enhances the security of the algorithm by adding differential privacy to the training process, to protect the privacy of the users. The authors showed that there exists a trade-off between privacy and accuracy, and proposed a method to find the optimal point in this trade-off, given a privacy budget.
-- Sparse Ternary Compression[^10] enhances the algorithm by compressing the model, to reduce the communication costs.
-- FL, in general, shows very promising results in the field of IoT and Edge Computing, where the devices are usually resource-constrained, and therefore, the communication costs are very important and the computing power is limited in a single device, but the great amount of devices collecting and processing data can be used to train a model[^11].
+- Adaptive Federated Learning[^9] enhances the algorithm by designing adaptive optimization methods in a federated setting, like Adam, Adagrad, etc.
+- Federated Learning with Differential Privacy[^10] enhances the security of the algorithm by adding differential privacy to the training process, to protect the privacy of the users. The authors showed that there exists a trade-off between privacy and accuracy, and proposed a method to find the optimal point in this trade-off, given a privacy budget.
+- Sparse Ternary Compression[^11] enhances the algorithm by compressing the model, to reduce the communication costs.
+- FL, in general, shows very promising results in the field of IoT and Edge Computing, where the devices are usually resource-constrained, and therefore, the communication costs are very important and the computing power is limited in a single device, but the great amount of devices collecting and processing data can be used to train a model[^12].
 
 
 ## References {#references}
@@ -471,7 +471,8 @@ Since this paper was published, many other works have been published, improving 
 [^5]: Natalia Neverova, Christian Wolf, Griffin Lacey, Lex Fridman, Deepak Chandra, Brandon Barbello, and Graham W. Taylor. Learning human identity from motion patterns. IEEE Access, 4:1810–1820, 2016.
 [^6]: Maria-Florina Balcan, Avrim Blum, Shai Fine, and Yishay Mansour. Distributed learning, communication complexity and privacy. arXiv preprint arXiv:1204.3514, 2012.
 [^7]: Yuchen Zhang, John Duchi, Michael I Jordan, and Martin J Wainwright. Information-theoretic lower bounds for distributed statistical estimation with communication constraints. In Advances in Neural Information Processing Systems, 2013.
-[^8]: Sashank Reddi, Zachary Charles, Manzil Zaheer, Zachary Garrett, Keith Rush, Jakub Konečný, Sanjiv Kumar, H. Brendan McMahan. Adaptive Federated Optimization. arXiv preprint arXiv:2003.00295, 2020.
-[^9]: Kang  Wei, Jun Li, Ming Ding, Chuan Ma, Howard H. Yang, Farhad Farokhi, Shi Jin, Toni Q. S. Quek, H. Vincent Poor. Federated Learning With Differential Privacy: Algorithms and Performance Analysis. IEEE Transactions on Information Forensics and Security, 15:3454-3469, 2020.
-[^10]: Felix Sattler, Simon Wiedemann, Klaus-Robert Müller, Wojciech Samek. Robust and Communication-Efficient Federated Learning From Non-i.i.d. Data. IEEE Transactions on Neural Networks and Learning Systems, 31:3400-3413, 2020.
+[^8]: Jeffrey Dean, Greg S. Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Quoc V. Le, Mark Z. Mao, Marc’Aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, and Andrew Y. Ng. Large scale distributed deep networks. In NIPS, 2012.
+[^9]: Sashank Reddi, Zachary Charles, Manzil Zaheer, Zachary Garrett, Keith Rush, Jakub Konečný, Sanjiv Kumar, H. Brendan McMahan. Adaptive Federated Optimization. arXiv preprint arXiv:2003.00295, 2020.
+[^10]: Kang  Wei, Jun Li, Ming Ding, Chuan Ma, Howard H. Yang, Farhad Farokhi, Shi Jin, Toni Q. S. Quek, H. Vincent Poor. Federated Learning With Differential Privacy: Algorithms and Performance Analysis. IEEE Transactions on Information Forensics and Security, 15:3454-3469, 2020.
+[^11]: Felix Sattler, Simon Wiedemann, Klaus-Robert Müller, Wojciech Samek. Robust and Communication-Efficient Federated Learning From Non-i.i.d. Data. IEEE Transactions on Neural Networks and Learning Systems, 31:3400-3413, 2020.
 [^11]: Shiqiang Wang, Tiffany Tuor, Theodoros Salonidis, Kin K. Leung, Christian Makaya, Ting He, Kevin Chan. Adaptive Federated Learning in Resource Constrained Edge Computing Systems. IEEE Journal on Selected Areas in Communications, 37:1205-1221. 2019.
