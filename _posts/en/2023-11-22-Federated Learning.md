@@ -48,7 +48,7 @@ The solution proposed by the authors is to train the model in a decentralised wa
 
 In the following image, we can observe the setup of the problem:
 
-<img src="/assets/images/FL/FL0.png" alt="Setup of the FL problem" width="300" class="centered-image"/>
+<img src="/assets/images/FL/FL0.png" alt="Setup of the FL problem" width="500" class="centered-image"/>
 
 We observe that there are several devices with a local copy of the central model. Each device captures data from its environment, and uses the local model to make predictions.
 
