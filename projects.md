@@ -7,6 +7,13 @@ lang: en
 Here is a list of some of my projects. For more details, visit the linked pages.
 
 <div class="category-title">Research Projects</div>
+<div class="project-title" onclick="toggleProject('paper-reviews')">
+    <b>Paper Reviews</b>
+</div>
+<div id="paper-reviews" class="project-content">
+    I have reviewed several papers in the field of Machine Learning, in the form of blog posts and presentations. You can find them in the <a href="/paper_reviews">dedicated page</a>.
+</div>
+
 <div class="project-title" onclick="toggleProject('transformers-content')">
     Transformer Models: State of the Art
 </div>

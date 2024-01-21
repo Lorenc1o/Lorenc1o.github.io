@@ -5,7 +5,7 @@ image: /assets/images/FL/STC/title.png
 categories: [Machine Learning, Research]
 author: "Jose Antonio Lorencio Abril"
 lang: en
-permalink: "/posts/end/FL-STC/"
+permalink: "/posts/en/FL-STC/"
 toc:
     - 
         title: "Introduction"
