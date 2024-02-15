@@ -7,6 +7,15 @@ lang: en
 Here is a list of some of my projects. For more details, visit the linked pages.
 
 <div class="category-title">Research Projects</div>
+
+<div class="project-title" onclick="toggleProject('text-summarization')">
+    Implementation of the paper "Fine-tune BERT for Extractive Summarization"
+</div>
+<div id="text-summarization" class="project-content">
+    Together with <a href="https://github.com/SYusupov">Sayyor Yusupov</a>, we implemented the paper "Fine-tune BERT for Extractive Summarization" by Yang Liu. The paper proposes a method to fine-tune BERT for extractive summarization, and it achieves state-of-the-art results in several datasets. <br><br>
+    The implementation can be found in the <a href="https://lorenc1o.github.io/NLP_Paper_Summarizer/">dedicated page</a>.
+</div>
+
 <div class="project-title" onclick="toggleProject('paper-reviews')">
     Paper Reviews
 </div>
