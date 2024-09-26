@@ -8,6 +8,19 @@ Here is a list of some of my projects. For more details, visit the linked pages.
 
 <div class="category-title">Research Projects</div>
 
+<div class="project-title" onclick="toggleProject('FEM')">
+    <b>MSc Thesis</b>: Spatio-Temporal Split Vertical Federated Learning
+</div>
+<div id="FEM" class="project-content">
+    To complete my Master's Degree in Big Data Management and Analytics, I had to conduct a Master's Thesis. I conducted my Thesis at the <a href="https://www.ait.ac.at/">Austrian Institute of Technology</a>, under the supervision of <a href="https://publications.ait.ac.at/en/persons/anita.graser">Anita Graser</a>. The thesis was conducted in the frame of the <a href="https://emeralds-horizon.eu/">EMERALDS</a> project, which aims at developing an Extreme-scale Mobility Analytics Platform. <br><br>
+    My research focused on developing a vertical federated learning approach that could be used to improve the prediction of space-time series coming from different sources, while preserving the privacy of the data. <br><br>
+    This research led to a publication in the conference <a href="https://eurocarto2024.org/welcome/">EuroCarto 2024</a>: Lorencio Abril, J. A., Graser, A., Weißenfeld, A., and Wachsenegger, A.: Spatio-Temporal Vertical Federated Learning to Overcome Data Sharing Limitations, Abstr. Int. Cartogr. Assoc., 7, 95, <a href="https://doi.org/10.5194/ica-abs-7-95-2024">https://doi.org/10.5194/ica-abs-7-95-2024</a>, 2024.
+    <br><br>
+    We are currently working on the full paper, which will be submitted to a journal.
+    <br><br>
+    The grade was 19/20 [Excellent].
+</div>
+
 <div class="project-title" onclick="toggleProject('text-summarization')">
     Implementation of the paper "Fine-tune BERT for Extractive Summarization"
 </div>
