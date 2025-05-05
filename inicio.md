@@ -5,4 +5,82 @@ permalink: /inicio
 en_link: /
 fr_link: /accueil
 ---
-<style> /* Main container styling */ .main-content { display: flex; align-items: center; padding-top: 40px; padding-bottom: 40px; } /* Image styling */ .profile-image { border-radius: 50%; width: 350px; /* Increased the size */ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); } /* Text styling */ .profile-text { padding-left: 40px; font-size: 1.2em; line-height: 1.6; color: #333; } /* Horizontal scroll images container */ .image-gallery { overflow-x: auto; display: flex; padding-bottom: 40px; gap: 20px; scrollbar-width: thin; /* For Firefox */ scrollbar-color: #888 #eee; /* For Firefox */ } /* Scrollbar styling for WebKit browsers */ .image-gallery::-webkit-scrollbar { height: 8px; } .image-gallery::-webkit-scrollbar-track { background: #eee; } .image-gallery::-webkit-scrollbar-thumb { background-color: #888; border-radius: 4px; } /* Individual image styling */ .image-gallery div { flex: 0 0 auto; text-align: center; } .image-gallery img { height: 200px; /* Set same height for all images */ border-radius: 10px; transition: transform 0.2s; } .image-gallery img:hover { transform: scale(1.05); } /* Caption styling */ .image-gallery p { margin-top: 10px; font-style: italic; color: #555; } /* Responsive design */ @media (max-width: 768px) { .main-content { flex-direction: column; align-items: center; text-align: center; } .profile-text { padding-left: 0; padding-top: 20px; } } </style> <div class="main-content"> <div> <img src="/assets/images/me/me.png" alt="A picture of me." class="profile-image"> </div> <div class="profile-text"> <p> Como apasionado por las <strong>matemáticas</strong> y la <strong>informática</strong>, obtuve un doble grado por la Universidad de Murcia, por el que recibí la <em> Mención Honorífica a la Excelencia Académica</em>. </p> <p> Estudié un Erasmus Mundus Joint Master's Degree en <strong>Big Data Management and Analytics</strong> pasando por la ULB (Belgium), la UPC (Spain), y CentraleSupélec (France), redactando mi master thesis en el AIT (Austria), y fui reconocido con el reconocimiento <em>Best Academic Record</em>. </p> <p> Desde octubre de 2024, comienzo mi PhD en <strong>Adversarial Machine Learning</strong> en Télécom ParisTech supervisado por Mounira Msahli y Albert Bifet. </p> </div> </div> <div class="image-gallery"> <div> <img src="/assets/images/me/me-and-mum.jpg" alt="With my mother"> <p>Con mi madre</p> </div> <div> <img src="/assets/images/me/me-jp-dad.jpg" alt="With my father and brother, 2016"> <p>Con mi padre y mi hermano, en la nevada de 2016</p> </div> <div> <img src="/assets/images/me/me-lore.jpg" alt="With my girlfriend Lorena in Barcelona"> <p>Con mi novia Lorena en Barcelona</p> </div> <div> <img src="/assets/images/me/me-and-friends.jpg" alt="With friends at a Christmas party"> <p>Con amigos en una fiesta de Navidad</p> </div> <div> <img src="/assets/images/me/me-friends-bruxelles.jpg" alt="With friends from Murcia visiting Brussels"> <p>Con amigos visitando Bruselas</p> </div> </div>
+
+<style>
+.main-content {
+  display: flex;
+  align-items: flex-start;      /* pin to top so text height won’t shift avatar */
+  justify-content: center;      /* center the whole block */
+  padding: 40px 20px;
+}
+
+/* ⬇️ Center avatar + button under one another */
+.main-content > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 200px;                 /* smaller and balanced */
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.download-cv {
+  margin-top: 15px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 10px 30px;
+  background-color: #fff9e5;
+  color: #000;
+  border-radius: 6px;
+  border: 1px solid #d0ac27;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.download-cv:hover {
+  background-color: #d0ac27;
+  color: #fff;
+}
+
+.profile-text {
+  flex: 1;                      /* fill remaining space */
+  max-width: 700px;             /* limit line-length */
+  margin: 0 20px;               /* gap from avatar */
+  font-size: 1.15em;
+  line-height: 1.6;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-text {
+    margin: 20px 10px 0;
+    padding: 0;
+  }
+}
+</style>
+
+<div class="main-content">
+  <div>
+    <img src="/assets/images/me/me.png" alt="Una foto mía" class="profile-image">
+    <a href="/assets/files/cv_JoseAntonioLorencio.pdf" class="download-cv" target="_blank">Descargar CV</a>
+  </div>
+  <div class="profile-text">
+    <p><strong>Investigador cuantitativo</strong> con doble grado en Matemáticas e Ingeniería Informática, y un máster Erasmus Mundus en Big Data (nota media: 18.5/20, Premio al Mejor Expediente).</p>
+    <ul style="padding-left: 20px; list-style-type: disc; line-height: 1.6;">
+      <li>Desarrollo de modelos de alto rendimiento en Python y C++ para predicción, simulación y robustez en aprendizaje automático.</li>
+      <li>Especializado en series temporales, aprendizaje federado y aprendizaje automático adversarial.</li>
+      <li>Buscando oportunidades como investigador cuantitativo en finanzas, aplicando matemáticas, optimización y estadística.</li>
+    </ul>
+  </div>
+</div>

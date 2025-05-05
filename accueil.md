@@ -2,59 +2,85 @@
 layout: home
 lang: fr
 permalink: /accueil
-es_link: /inicio
 en_link: /
+es_link: /inicio
 ---
 
-Bonjour, je pense que mon nom est déjà trop de fois sur ce site, donc je vais sauter cette partie. Ici vous trouverez mes [articles](/blog) et [projets](/projects).
+<style>
+.main-content {
+  display: flex;
+  align-items: flex-start;      /* pin to top so text height won’t shift avatar */
+  justify-content: center;      /* center the whole block */
+  padding: 40px 20px;
+}
 
-Vous trouverez des informations et des idées sur différents sujets ici, en particulier sur la science des données, l'apprentissage automatique, les mathématiques, la programmation et d'autres sujets qui m'intéressent, qui me font rire, ou même les deux.
+/* ⬇️ Center avatar + button under one another */
+.main-content > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-<script>
-window.onload = function() {
-    fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('joke').textContent = data.joke;
-        });
-};
-</script>
+.profile-image {
+  border-radius: 50%;
+  width: 200px;                 /* smaller and balanced */
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
 
-Ici, une blague pour vous[^1] (an anglais, désolé):
+.download-cv {
+  margin-top: 15px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 10px 30px;
+  background-color: #fff9e5;
+  color: #000;
+  border-radius: 6px;
+  border: 1px solid #d0ac27;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
 
-<p id="joke"></p>
+.download-cv:hover {
+  background-color: #d0ac27;
+  color: #fff;
+}
 
-## À propos de moi
+.profile-text {
+  flex: 1;                      /* fill remaining space */
+  max-width: 700px;             /* limit line-length */
+  margin: 0 20px;               /* gap from avatar */
+  font-size: 1.15em;
+  line-height: 1.6;
+  color: #333;
+}
 
-Mon éducation et mon expérience sont expliquées dans la section [about](/about). Ici, je vais parler de moi, de mes passe-temps et de mes intérêts.
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-text {
+    margin: 20px 10px 0;
+    padding: 0;
+  }
+}
+</style>
 
-Je viens de Cehegín, une petite ville de Murcie, dans le sud de l'Espagne. J'y ai vécu la plupart de ma vie, et j'ai de très bons souvenirs de mon enfance et de mon adolescence et la plupart des personnes importantes de ma vie sont là-bas. Je suis allé à Murcie en 2017 pour étudier et aujourd'hui je vis dans différents endroits, car mon Master actuel est un Master conjoint entre plusieurs universités européennes.
-
-Normalement, j'utilise cette photo comme photo de profil, car elle a l'air professionnelle et je m'y trouve assez bien:
-
-<img src="/assets/images/me/me.png" alt="A picture of me." width="100" class="centered-image">
-
-
-Mais il y a beaucoup plus de moi que ça. Je partage ici quelques photos avec des personnes importantes de ma vie. C'est moi avec ma mère quand j'étais plus jeune:
-
-<img src="/assets/images/me/me-and-mum.jpg" alt="A picture of me with my mother." width="300" class="centered-image">
-
-C'est moi avec mon père et mon frère, un jour de neige en 2016:
-
-<img src="/assets/images/me/me-jp-dad.jpg" alt="A picture of me with my family." width="300" class="centered-image">
-
-Cette photo est plus récente, avec ma copine, Lorena, qui est une personne cruciale dans ma vie. Nous avons pris cette photo au Parque de la Ciudadela, à Barcelone:
-
-<img src="/assets/images/me/me-lore.jpg" alt="A picture of me with my girlfriend." width="300" class="centered-image">
-
-Finalement, laissez-moi vous présenter certains de mes amis. C'est moi avec mes amis lors d'une fête de Noël dans notre ville natale:
-
-<img src="/assets/images/me/me-and-friends.jpg" alt="A picture of me with my friends." width="300" class="centered-image">
-
-Et c'est moi avec certains de mes amis de Murcie, qui sont venus me rendre visite à Bruxelles quand j'étudiais là-bas:
-
-<img src="/assets/images/me/me-friends-bruxelles.jpg" alt="A picture of me with my friends from Murcia." width="300" class="centered-image">
-
-Vous pouvez vous sentir le froid sur la photo, non?
-
-[^1]: Clause de non-responsabilité: Blague fournie par [jokeAPI](https://sv443.net/jokeapi/v2/).
+<div class="main-content">
+  <div>
+    <img src="/assets/images/me/me.png" alt="Photo de moi" class="profile-image">
+    <a href="/assets/files/cv_JoseAntonioLorencio.pdf" class="download-cv" target="_blank">Télécharger le CV</a>
+  </div>
+  <div class="profile-text">
+    <p><strong>Chercheur quantitatif</strong> diplômé en Mathématiques et Informatique, avec un master Erasmus Mundus en Big Data (moyenne : 18,5/20, Prix du Meilleur Dossier Académique).</p>
+    <ul style="padding-left: 20px; list-style-type: disc; line-height: 1.6;">
+      <li>Développement de modèles haute performance en Python et C++ pour la prévision, la simulation et la robustesse en apprentissage automatique.</li>
+      <li>Expertise en séries temporelles, apprentissage fédéré et attaques adversariales.</li>
+      <li>Actuellement à la recherche d’un poste en finance quantitative alliant modélisation mathématique, optimisation et apprentissage statistique.</li>
+    </ul>
+  </div>
+</div>

@@ -13,6 +13,16 @@
   margin-right: auto;
 }
 
+.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
 .site-nav {
   z-index: 2;
 }
@@ -138,4 +148,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.role-title {
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #333;
+  border-left: 4px solid #d0ac27;
+  padding-left: 12px;
 }
