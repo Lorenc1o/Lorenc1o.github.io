@@ -24,7 +24,7 @@ es_link: /sobre
 # About me {#about}
 
 <div style="background-color: #fff9e5; border-left: 5px solid #d0ac27; padding: 15px 20px; font-size: 1.1em; margin-bottom: 30px;">
-  <strong>Quantitative researcher</strong> with dual BSc in Mathematics &amp; Computer Science, an EMJMD MSc in Big Data (GPA: 18.5/20, Best Record Award), and hands-on experience building Python/C++ models for time-series forecasting, federated learning, and adversarial robustness.<br><br>
+  <strong>Quantitative researcher</strong> with BSc in Mathematics &amp; BSc in Computer Science, an EMJMD MSc in Big Data (GPA: 18.5/20, Best Record Award), and hands-on experience building Python/C++ models for time-series forecasting, federated learning, and adversarial robustness.<br><br>
   Currently pivoting full-time into quantitative finance.
 </div>
 
